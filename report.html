@@ -1,0 +1,881 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>COMPREHENSIVE CONTENT PROPOSAL FOR PICASSO PAINTING — Picasso Painting</title>
+<meta name="description" content="Strategy, rationale, and preliminary five-week plan">
+<style>
+    :root{
+      --primary:#7b8e46;
+      --secondary:#b8c48a;
+      --background:#f4f2ed;
+      --ink:#000000;
+      --muted:#686664;
+      --white:#ffffff;
+      --line:#e5e7dc;
+      --soft:#f8f9f4;
+    }
+    *,*::before,*::after{box-sizing:border-box}
+    html{background:var(--background);scroll-behavior:auto}
+    body{margin:0;color:var(--ink);background:var(--background);font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.62;-webkit-font-smoothing:antialiased}
+    .sheet{width:min(100% - 52px,900px);margin:36px auto 48px;padding:56px clamp(24px,6vw,74px) 60px;background:var(--white);border:1px solid #e7e6df;box-shadow:0 10px 32px rgba(0,0,0,.055)}
+    .document-topline{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:13px;letter-spacing:.14em;font-size:10px;font-weight:800;color:var(--primary);text-transform:uppercase}
+    .document-topline .lang{letter-spacing:.1em;color:var(--muted);font-weight:700}
+    .report-header{position:relative;padding:50px 0 39px;border-bottom:3px solid var(--primary);overflow:hidden}
+    .report-header:after{content:"";position:absolute;right:-70px;top:-80px;width:150px;height:150px;border-radius:50%;background:var(--secondary);opacity:.32}
+    .header-kicker{display:block;margin:0 0 16px;color:var(--primary);font-weight:700;text-transform:uppercase;letter-spacing:.11em;font-size:11px}
+    h1{max-width:640px;margin:0;color:var(--ink);font-weight:700;line-height:1.13;letter-spacing:-.045em;font-size:clamp(30px,4.2vw,46px)}
+    .subtitle{max-width:650px;margin:20px 0 0;color:var(--muted);font-size:16px;line-height:1.5}
+    .report-deck{display:flex;gap:10px 18px;flex-wrap:wrap;padding:18px 0 0;margin:0;color:#526130;font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:800}
+    .report-deck span{display:inline-block}
+    .report-deck span+span:before{content:"·";margin-right:18px;color:var(--secondary)}
+    .chapter{padding:32px 0 28px;border-bottom:1px solid var(--line);min-width:0}
+    .chapter:last-of-type{border-bottom:0;padding-bottom:10px}
+    .chapter h2{display:flex;gap:16px;align-items:baseline;line-height:1.25;letter-spacing:-.025em;font-size:21px;font-weight:700;margin:0 0 18px;color:#111}
+    .chapter-no{font-family:Arial,sans-serif;color:var(--primary);font-size:13px;font-weight:800;letter-spacing:.06em;flex:0 0 26px}
+    .chapter h3{margin:28px 0 12px;line-height:1.3;font-size:16px;letter-spacing:-.014em;color:#526530;font-weight:700;break-after:avoid;page-break-after:avoid}
+    .chapter p{margin:0 0 13px;line-height:1.7;font-size:13.65px;max-width:720px}
+    .chapter strong{font-weight:700}
+    .chapter ul,.chapter ol{margin:7px 0 17px 0;padding-left:23px}
+    .chapter li{padding-left:2px;margin:6px 0;line-height:1.57;font-size:13.65px}
+    .chapter li::marker{color:#7b8e46;font-weight:700}
+    .chapter ol li::marker{font-weight:700}
+    .chapter .process-line{font-weight:700;color:#465829;background:#f4f7e9;border-left:3px solid var(--primary);padding:12px 15px;margin:16px 0 21px}
+    .chapter .caption-label{font-size:11px;letter-spacing:.08em;color:var(--primary);text-transform:uppercase;font-weight:800;margin:13px 0 5px}
+    .table-scroll{width:100%;overflow-x:auto;margin:17px 0 20px;scrollbar-color:var(--secondary) transparent}
+    table{width:100%;border-collapse:collapse;text-align:left;table-layout:auto;font-size:12.5px;line-height:1.4}
+    thead th{font-size:11px;letter-spacing:.008em;font-weight:750;color:#263013;background:#e5ebd3;border-top:2px solid var(--primary);border-bottom:1px solid var(--secondary);text-align:left}
+    th,td{vertical-align:top;padding:9px 11px;border-bottom:1px solid var(--line);overflow-wrap:break-word}
+    tbody tr:nth-child(even){background:#fafbf8}
+    tbody tr:last-child td{border-bottom:1px solid #d7dbc9}
+    .chapter-07 table th:first-child,.chapter-07 table td:first-child{width:45px;white-space:nowrap}
+    .chapter-08 table th:first-child,.chapter-08 table td:first-child{width:90px}
+    .chapter-10 table{font-size:11.2px;min-width:620px}
+    .chapter-10 th,.chapter-10 td{padding:8px}
+    .chapter-10 table th:first-child,.chapter-10 table td:first-child{width:58px;white-space:nowrap}
+    .chapter-09 h3{margin-top:24px}
+    .chapter-08 h3{padding-top:7px;border-top:1px solid #e5ebd3}
+    .chapter-08 h3:first-of-type{border-top:0}
+    .report-footer{padding-top:20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;border-top:2px solid var(--primary);color:var(--muted);font-size:11px}
+    .report-footer strong{color:var(--primary);font-weight:800}
+    a{color:var(--primary);text-decoration:underline}
+    ::selection{background:#dce5c1;color:#000}
+    @media(max-width:650px){
+      .sheet{width:100%;margin:0;padding:22px 20px 35px;border:none;box-shadow:none}
+      .document-topline{font-size:9px}
+      .report-header{padding:34px 0 30px}
+      .report-header:after{right:-90px}
+      h1{font-size:31px}
+      .subtitle{font-size:14px}
+      .chapter{padding:25px 0 24px}
+      .chapter h2{font-size:19px;gap:8px}
+      .chapter-no{font-size:12px;flex-basis:26px}
+      .chapter h3{font-size:15px}
+      .chapter p,.chapter li{font-size:13px}
+      table{font-size:12px}
+      .table-scroll{margin:15px 0}
+      .chapter-07 table{min-width:520px}
+      .chapter-08 table{min-width:410px}
+      .chapter-10 table{min-width:660px}
+    }
+    @page{size:A4;margin:17mm 15mm 17mm 15mm}
+    @media print{
+      html,body{background:#fff!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+      .sheet{width:100%;max-width:none;margin:0;padding:0;border:0;box-shadow:none}
+      .document-topline{padding:0 0 9px}
+      .report-header{padding:25px 0 22px}
+      .report-header:after{display:none}
+      h1{font-size:29px}
+      .subtitle{font-size:13px}
+      .report-deck{padding-top:10px}
+      .chapter{padding:20px 0 15px}
+      .chapter h2{font-size:17px;margin-bottom:10px;break-after:avoid-page}
+      .chapter h3{font-size:13px;margin:18px 0 7px;break-after:avoid-page}
+      .chapter p,.chapter li{font-size:10.7px;line-height:1.47}
+      .chapter p{margin-bottom:9px}
+      .chapter ul,.chapter ol{margin-top:5px;margin-bottom:9px}
+      .chapter li{margin:3px 0}
+      table{font-size:9.5px;line-height:1.3}
+      th,td{padding:5px 6px}
+      .chapter-10 table{font-size:8.3px;min-width:0}
+      .chapter-10 th,.chapter-10 td{padding:5px}
+      .chapter-07 table th:first-child,.chapter-07 table td:first-child{width:32px}
+      .chapter-08 table th:first-child,.chapter-08 table td:first-child{width:76px}
+      .chapter .process-line{padding:8px 10px}
+      .table-scroll{overflow:visible;margin:10px 0 13px}
+      table,tr,td,th{break-inside:avoid;page-break-inside:avoid}
+      thead{display:table-header-group}
+      p,h3{orphans:3;widows:3}
+      .report-footer{margin-top:15px}
+    }
+    </style></head>
+<body><main class="sheet" id="report">
+<div class="document-topline"><span>PICASSO PAINTING · STRATEGY REPORT</span><span class="lang">ENGLISH</span></div>
+<header class="report-header">
+<span class="header-kicker">Content proposal</span>
+<h1>COMPREHENSIVE CONTENT PROPOSAL FOR PICASSO PAINTING</h1>
+<p class="subtitle">Strategy, rationale, and preliminary five-week plan</p>
+<div class="report-deck"><span>PRELIMINARY PLAN · FIVE WEEKS</span><span>15 REELS</span><span>5 CAROUSELS</span><span>10 STORY SEQUENCES</span></div>
+</header>
+<section class="chapter chapter-01" aria-labelledby="chapter-1"><h2 id="chapter-1"><span class="chapter-no">01</span><span>What I want to achieve</span></h2><p>My proposal is to use content to attract homeowners, help them make better decisions, and turn that interest into estimate requests for Picasso Painting.</p>
+<p>I want to pursue three connected objectives:</p>
+<ol>
+<li><strong>Discovery:</strong> help people who do not yet know Picasso find relevant content.</li>
+<li><strong>Trust:</strong> help them understand the expertise and care behind the work.</li>
+<li><strong>Conversion:</strong> make it clear how to get in touch and request an estimate.</li>
+</ol>
+<p>To achieve this, I propose combining <strong>15 Reels, five carousels, and supporting Stories over five weeks</strong>.</p>
+<p>This is a complete preliminary plan. The dates and project examples will be adjusted to the available projects and footage.</p>
+</section><section class="chapter chapter-02" aria-labelledby="chapter-2"><h2 id="chapter-2"><span class="chapter-no">02</span><span>Why I chose this strategy</span></h2><p>People may become interested in painting before they are ready to hire someone. Sometimes they start with a simple concern: a marked wall, a white color that does not quite feel right, or an entryway that looks worn.</p>
+<p>I want to be part of that conversation and help them understand their options.</p>
+<p>The structure will be:</p>
+<p class="process-line"><strong>Recognizable situation → compelling question → demonstrable explanation → useful action.</strong></p>
+<p>For example, explaining why a touch-up in the same color is still visible provides a useful answer while demonstrating professional judgment.</p>
+<p>I also want the content to help people understand the value of the service: what is prepared, what is protected, and what is inspected before a job is considered complete.</p>
+</section><section class="chapter chapter-03" aria-labelledby="chapter-3"><h2 id="chapter-3"><span class="chapter-no">03</span><span>What I am basing this on</span></h2><div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Foundation of the proposal</th>
+<th>How I am using it</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Picasso’s public information</td>
+<td>To connect the content with the services and processes described by the company</td>
+</tr>
+<tr>
+<td>Regional competitors</td>
+<td>To understand the messages already present in the market</td>
+</tr>
+<tr>
+<td>Public consumer conversations</td>
+<td>To identify specific questions about color, hiring, and estimates</td>
+</tr>
+<tr>
+<td>Content strategy documents</td>
+<td>To develop ideas, hooks, demonstrations, and paths toward an inquiry</td>
+</tr>
+<tr>
+<td>Approved selection of 15 Reels</td>
+<td>As the foundation for the first production cycle</td>
+</tr>
+</tbody>
+</table></div>
+<p>Picasso’s services page describes preparation, protection of spaces, cleanup, and a final walkthrough. I want to make those steps visible through real examples.</p>
+<p>In recent public conversations, I found questions about white paint, how colors appear, estimates, and recommendations for trustworthy painters. These are useful qualitative signals for choosing topics; they are not a measure of overall local demand.</p>
+<p>I also reviewed the communications of Palladino Painting, CertaPro San Mateo, and MB Jessee. Preparation, guidance, experience, and project management already appear in their messaging. My proposal for Picasso is to demonstrate its strengths through details and decisions drawn from its own projects.</p>
+</section><section class="chapter chapter-04" aria-labelledby="chapter-4"><h2 id="chapter-4"><span class="chapter-no">04</span><span>What criteria I am applying to the content</span></h2><p>I am using the content strategy documents to evaluate four aspects:</p>
+<ul>
+<li><strong>Hooks:</strong> a clear topic, immediate interest, and consistency among on-screen text, spoken words, and visuals.</li>
+<li><strong>Novelty:</strong> a less-obvious angle on a familiar situation.</li>
+<li><strong>Usefulness:</strong> an answer that helps homeowners decide.</li>
+<li><strong>Credibility:</strong> real evidence and clear limits on what is being shown.</li>
+</ul>
+<p>Editorial assessments of the ideas help set priorities. I will not present them as guarantees of views or sales.</p>
+</section><section class="chapter chapter-05" aria-labelledby="chapter-5"><h2 id="chapter-5"><span class="chapter-no">05</span><span>Who I want to reach</span></h2><p>The proposed primary audience is homeowners considering renovating, maintaining, or improving their homes within Picasso’s service area.</p>
+<p>Within that audience, I will focus on three situations:</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Situation</th>
+<th>What they need to understand</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>They want to improve appearance</td>
+<td>What could change and what could stay</td>
+</tr>
+<tr>
+<td>They have a visible problem</td>
+<td>What should be checked before painting</td>
+</tr>
+<tr>
+<td>They are comparing options</td>
+<td>What the work includes and how to get started</td>
+</tr>
+</tbody>
+</table></div>
+<p>Commercial and property-management needs can be added through specific case studies, depending on the business’s priorities.</p>
+<p>The public-facing text presented below is proposed in English for the local market. In this version, the strategic explanation is also in English for review.</p>
+</section><section class="chapter chapter-06" aria-labelledby="chapter-6"><h2 id="chapter-6"><span class="chapter-no">06</span><span>What role each format will play</span></h2><div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Format</th>
+<th>Role</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Reels</td>
+<td>Spark interest and illustrate one idea</td>
+<td>Demonstrations, recognizable problems, and transformations</td>
+</tr>
+<tr>
+<td>Carousels</td>
+<td>Organize information worth saving</td>
+<td>Comparisons, questions, and decision checklists</td>
+</tr>
+<tr>
+<td>Stories</td>
+<td>Maintain conversation and a personal connection</td>
+<td>Polls, questions, behind-the-scenes work, and follow-up</td>
+</tr>
+<tr>
+<td>Profile and website</td>
+<td>Make the next step easy</td>
+<td>Projects, services, and estimate contact information</td>
+</tr>
+</tbody>
+</table></div>
+<p>I want the formats to work together. A Reel can introduce a question; a carousel can organize the criteria; Stories can answer questions and guide people toward an inquiry.</p>
+</section><section class="chapter chapter-07" aria-labelledby="chapter-7"><h2 id="chapter-7"><span class="chapter-no">07</span><span>The 15 selected Reels</span></h2><p>I will retain the scripts, hooks, captions, and production notes from the approved document.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Topic</th>
+<th>Primary role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>01</td>
+<td>The white paint that looks different</td>
+<td>Help people choose a color</td>
+</tr>
+<tr>
+<td>02</td>
+<td>The floor that looks different without being replaced</td>
+<td>Explore combinations before deciding</td>
+</tr>
+<tr>
+<td>03</td>
+<td>The marked wall that may not need a full repaint</td>
+<td>Demonstrate professional judgment</td>
+</tr>
+<tr>
+<td>04</td>
+<td>The kitchen that may not need new cabinets</td>
+<td>Compare alternatives</td>
+</tr>
+<tr>
+<td>05</td>
+<td>The worn entryway that deserves a smaller intervention</td>
+<td>Identify priorities</td>
+</tr>
+<tr>
+<td>06</td>
+<td>The same-color touch-up that is still noticeable</td>
+<td>Explain a common problem</td>
+</tr>
+<tr>
+<td>07</td>
+<td>The stain that keeps coming back</td>
+<td>Show the importance of investigating the cause</td>
+</tr>
+<tr>
+<td>08</td>
+<td>The new paint that starts peeling again</td>
+<td>Explain assessment and preparation</td>
+</tr>
+<tr>
+<td>09</td>
+<td>The right color with the wrong finish</td>
+<td>Improve the selection process</td>
+</tr>
+<tr>
+<td>10</td>
+<td>The paint that makes existing imperfections visible</td>
+<td>Clarify expectations</td>
+</tr>
+<tr>
+<td>11</td>
+<td>The cleaned area that becomes shiny</td>
+<td>Offer care guidance</td>
+</tr>
+<tr>
+<td>12</td>
+<td>The crack that disappears and returns</td>
+<td>Distinguish covering from repairing</td>
+</tr>
+<tr>
+<td>13</td>
+<td>The wall that looks covered before the job is complete</td>
+<td>Explain when the work is truly finished</td>
+</tr>
+<tr>
+<td>14</td>
+<td>The money-saving trick that can create more work</td>
+<td>Evaluate methods</td>
+</tr>
+<tr>
+<td>15</td>
+<td>The cheaper paint can that might not make the project cheaper</td>
+<td>Compare total cost</td>
+</tr>
+</tbody>
+</table></div>
+<p>The first production batch will be <strong>01, 02, 03, 06, and 07</strong>.</p>
+<p>For Reel 04, I will confirm the scope of cabinet-related services. For Reel 14, I will select and verify the specific tricks before filming.</p>
+</section><section class="chapter chapter-08" aria-labelledby="chapter-8"><h2 id="chapter-8"><span class="chapter-no">08</span><span>The five preliminary carousels</span></h2><p>I propose one six-slide carousel per week. Each one will expand on a decision related to the Reels.</p>
+<h3>C1. Before choosing white paint</h3>
+<p><strong>Objective:</strong> help people compare options and encourage saves.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Slide</th>
+<th>Proposed text</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>“Choosing white paint? Start with your room.”</td>
+</tr>
+<tr>
+<td>2</td>
+<td>“Bring a large sample into the space.”</td>
+</tr>
+<tr>
+<td>3</td>
+<td>“Compare it beside your flooring, trim, and furniture.”</td>
+</tr>
+<tr>
+<td>4</td>
+<td>“Check it in different areas and at different times of day.”</td>
+</tr>
+<tr>
+<td>5</td>
+<td>“Compare your final options in the same conditions.”</td>
+</tr>
+<tr>
+<td>6</td>
+<td>“Save this before choosing your white. Contact Picasso Painting to discuss your project.”</td>
+</tr>
+</tbody>
+</table></div>
+<p class="caption-label"><strong>Caption:</strong></p>
+<p>“A white paint color should work with your actual space. Compare samples alongside the materials and lighting already in your home. Save this checklist for your next painting project.”</p>
+<p><strong>Materials:</strong> labeled sample, photos of the space, and consistent shots.</p>
+<p>The recommendation to observe samples in different places and lighting conditions is supported by Benjamin Moore’s guidance.</p>
+<h3>C2. Color and finish: two different decisions</h3>
+<p><strong>Objective:</strong> expand on Reel 09 and help people ask better questions.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Slide</th>
+<th>Proposed text</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>“Picked the color? There’s another choice to make.”</td>
+</tr>
+<tr>
+<td>2</td>
+<td>“Your paint selection also includes the finish.”</td>
+</tr>
+<tr>
+<td>3</td>
+<td>“Compare clearly labeled samples in the same light.”</td>
+</tr>
+<tr>
+<td>4</td>
+<td>“Look at how each one reflects light across the surface.”</td>
+</tr>
+<tr>
+<td>5</td>
+<td>“Discuss the appearance, intended use, and product requirements.”</td>
+</tr>
+<tr>
+<td>6</td>
+<td>“Save this before buying paint. Ask us about the options for your project.”</td>
+</tr>
+</tbody>
+</table></div>
+<p class="caption-label"><strong>Caption:</strong></p>
+<p>“Keep color and finish on your painting checklist. Review actual samples and the requirements of the product you’re considering before making your final choice.”</p>
+<p><strong>Materials:</strong> comparable sample panels and product labels. I will confirm the technical details with the team.</p>
+<h3>C3. What to ask before repainting a surface with problems</h3>
+<p><strong>Objective:</strong> show the importance of assessing the surface before making a recommendation.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Slide</th>
+<th>Proposed text</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>“The problem came back. What should you ask?”</td>
+</tr>
+<tr>
+<td>2</td>
+<td>“What condition has actually been identified?”</td>
+</tr>
+<tr>
+<td>3</td>
+<td>“Does anything need attention before painting?”</td>
+</tr>
+<tr>
+<td>4</td>
+<td>“What preparation is included in the proposal?”</td>
+</tr>
+<tr>
+<td>5</td>
+<td>“What result can reasonably be expected?”</td>
+</tr>
+<tr>
+<td>6</td>
+<td>“Save these questions. Contact Picasso Painting to discuss your painting project.”</td>
+</tr>
+</tbody>
+</table></div>
+<p class="caption-label"><strong>Caption:</strong></p>
+<p>“A recurring stain, crack, or peeling area deserves a closer look. Start with questions about the condition and the proposed work before deciding on another coat.”</p>
+<p><strong>Materials:</strong> documented examples. I will not identify causes based on appearance alone.</p>
+<h3>C4. Questions for the final walkthrough</h3>
+<p><strong>Objective:</strong> help the customer participate in the final walkthrough.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Slide</th>
+<th>Proposed text</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>“Your painting project is finished. What should you review?”</td>
+</tr>
+<tr>
+<td>2</td>
+<td>“Walk through the areas included in the agreed scope.”</td>
+</tr>
+<tr>
+<td>3</td>
+<td>“Point out anything you want to inspect together.”</td>
+</tr>
+<tr>
+<td>4</td>
+<td>“Ask which product and color information to keep.”</td>
+</tr>
+<tr>
+<td>5</td>
+<td>“Review the applicable care instructions and remaining questions.”</td>
+</tr>
+<tr>
+<td>6</td>
+<td>“Save this for your final walkthrough.”</td>
+</tr>
+</tbody>
+</table></div>
+<p class="caption-label"><strong>Caption:</strong></p>
+<p>“The final walkthrough is a chance to review the completed project and ask questions. Keep this checklist for your next painting job.”</p>
+<p><strong>Materials:</strong> an actual walkthrough, product information, and documentation without private data.</p>
+<h3>C5. How to compare painting estimates</h3>
+<p><strong>Objective:</strong> support informed comparisons and generate inquiries.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Slide</th>
+<th>Proposed text</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>“Comparing painting estimates? Compare the scope.”</td>
+</tr>
+<tr>
+<td>2</td>
+<td>“Are the same surfaces included?”</td>
+</tr>
+<tr>
+<td>3</td>
+<td>“What preparation and repairs are specified?”</td>
+</tr>
+<tr>
+<td>4</td>
+<td>“Which products and coating requirements are included?”</td>
+</tr>
+<tr>
+<td>5</td>
+<td>“What does each proposal say about coordination, cleanup, and completion?”</td>
+</tr>
+<tr>
+<td>6</td>
+<td>“Clarify the details before comparing totals. Request a free estimate from Picasso Painting.”</td>
+</tr>
+</tbody>
+</table></div>
+<p class="caption-label"><strong>Caption:</strong></p>
+<p>“Two painting proposals can include different work. Put the details side by side and ask about anything that needs clarification. Save this before reviewing your estimates.”</p>
+<p><strong>Materials:</strong> a clearly labeled illustrative estimate or authorized documentation.</p>
+</section><section class="chapter chapter-09" aria-labelledby="chapter-9"><h2 id="chapter-9"><span class="chapter-no">09</span><span>Stories: ten preliminary sequences</span></h2><p>I propose posting Stories five days a week. The following sequences provide a starting point for production, avoiding the need to improvise every day.</p>
+<p>Each sequence contains three frames. The text will be adapted to the actual visuals available.</p>
+<h3>S1. Color preference</h3>
+<ol>
+<li>Show two samples: “Which direction would you explore?”</li>
+<li>Poll: “A / B”.</li>
+<li>Show both in context: “Compare your favorites in your own space before deciding.”</li>
+</ol>
+<h3>S2. Following a sample</h3>
+<ol>
+<li>“Same sample. Morning light.”</li>
+<li>“Same sample. Evening light.”</li>
+<li>“What do you notice?” with a response box.</li>
+</ol>
+<h3>S3. Homeowner question</h3>
+<ol>
+<li>“What’s your biggest painting question?”</li>
+<li>Question box: “Ask us here.”</li>
+<li>Answer a real question with a short explanation from the team.</li>
+</ol>
+<p>If there are no questions yet, I will use a frequently asked question and label it as such.</p>
+<h3>S4. What to keep and what to change</h3>
+<ol>
+<li>Show the space: “What would you keep?”</li>
+<li>Identify options: “Floor / Furniture / Layout”.</li>
+<li>“What would you update first?” with a poll about painted surfaces.</li>
+</ol>
+<h3>S5. Behind the result</h3>
+<ol>
+<li>“Here’s where this project started.”</li>
+<li>“Here’s one preparation step.”</li>
+<li>“Here’s the finished area.”</li>
+</ol>
+<p>The sequence will feature the same project throughout.</p>
+<h3>S6. Clarifying a decision</h3>
+<ol>
+<li>“Clean, touch up, or repaint?”</li>
+<li>Show the area: “This example needs a closer look.”</li>
+<li>Explain the actual recommendation and why it was made, without presenting it as a universal solution.</li>
+</ol>
+<h3>S7. Meet the team</h3>
+<ol>
+<li>Introduction: name and role.</li>
+<li>Question: “What do you check before starting?”</li>
+<li>Video answer with an example from the work.</li>
+</ol>
+<h3>S8. Comparing proposals</h3>
+<ol>
+<li>“What’s included in your painting estimate?”</li>
+<li>Highlight an item: “Preparation / Products / Surfaces”.</li>
+<li>“Have a question about your project? Contact us.”</li>
+</ol>
+<h3>S9. From before to after</h3>
+<ol>
+<li>Initial photo: “Before”.</li>
+<li>Same framing: “After”.</li>
+<li>“Which detail would you like to see closer?”</li>
+</ol>
+<p>If changes were made beyond painting, I will identify them.</p>
+<h3>S10. Requesting an estimate</h3>
+<ol>
+<li>“Thinking about a painting project?”</li>
+<li>“Tell us your city, the areas involved, and your preferred timing.”</li>
+<li>“Request your free estimate” with a link to the website.</li>
+</ol>
+<h3>How I will use them</h3>
+<p>I will reuse these structures with different examples. One Story sequence will be a unit of conversation, not a requirement to produce three brand-new images every day.</p>
+<p>When an interesting response comes in, I will prepare a follow-up and explain what happened.</p>
+</section><section class="chapter chapter-10" aria-labelledby="chapter-10"><h2 id="chapter-10"><span class="chapter-no">10</span><span>Unified five-week calendar</span></h2><p>I propose publishing Reels on Monday, Wednesday, and Friday; the carousel on Thursday; and Stories from Monday through Friday.</p>
+<p>The weeks will begin once the first production batch is available. I am not setting posting times as though there were one universally optimal hour.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Week</th>
+<th>Monday</th>
+<th>Tuesday</th>
+<th>Wednesday</th>
+<th>Thursday</th>
+<th>Friday</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>R01 + S2</td>
+<td>S1: compare whites</td>
+<td>R02 + S4</td>
+<td>C1 + S3</td>
+<td>R03 + S6</td>
+</tr>
+<tr>
+<td>2</td>
+<td>R06 + S3</td>
+<td>S7: meet the team</td>
+<td>R07 + S5</td>
+<td>C2 + S1 on finishes</td>
+<td>R09 + S10</td>
+</tr>
+<tr>
+<td>3</td>
+<td>R05 + S4</td>
+<td>S7: preparation</td>
+<td>R08 + S5</td>
+<td>C3 + S3</td>
+<td>R10 + S9</td>
+</tr>
+<tr>
+<td>4</td>
+<td>R11 + S3</td>
+<td>S7: surface care</td>
+<td>R12 + S5</td>
+<td>C4 + S8 adapted for the walkthrough</td>
+<td>R13 + S10</td>
+</tr>
+<tr>
+<td>5</td>
+<td>R04 + S4</td>
+<td>S7: evaluating options</td>
+<td>R14 + S3</td>
+<td>C5 + S8</td>
+<td>R15 + S10</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Weekends:</strong> review inquiries, collect materials, and prepare the next batch. If a project or response warrants an additional post, I will include it without making it a fixed workload.</p>
+<p>The cycle includes <strong>20 main posts and 25 Story sequences</strong>, equivalent to approximately 75 frames if we use three per sequence.</p>
+</section><section class="chapter chapter-11" aria-labelledby="chapter-11"><h2 id="chapter-11"><span class="chapter-no">11</span><span>How I will guide interest toward an inquiry</span></h2><p>The proposed path will be:</p>
+<p class="process-line"><strong>Content → profile or website → inquiry → initial review → site visit → estimate → follow-up.</strong></p>
+<p>I will not ask for the same action in every piece.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Content intent</th>
+<th>CTA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Teach a useful criterion</td>
+<td>Save</td>
+</tr>
+<tr>
+<td>Compare options</td>
+<td>Choose or comment</td>
+</tr>
+<tr>
+<td>Answer a question</td>
+<td>Send a question</td>
+</tr>
+<tr>
+<td>Show an issue requiring evaluation</td>
+<td>Ask about the project</td>
+</tr>
+<tr>
+<td>Present the service</td>
+<td>Request an estimate</td>
+</tr>
+</tbody>
+</table></div>
+<p>For incoming inquiries, I propose this initial response:</p>
+<p>“Hi! Thanks for contacting Picasso Painting. What city is your property in, and which areas are you considering painting? If available, please share a few photos and your preferred timing so we can discuss the next step for your free estimate.”</p>
+<p>I want every inquiry to have an assigned owner and a record of whether it progressed to a visit, an estimate, or a signed project.</p>
+</section><section class="chapter chapter-12" aria-labelledby="chapter-12"><h2 id="chapter-12"><span class="chapter-no">12</span><span>How I will prepare the profile</span></h2><p>I propose that the profile make three actions easy: understand the service, view real work, and make contact.</p>
+<h3>Pinned posts:</h3>
+<ul>
+<li>A color demonstration: Reel 01.</li>
+<li>An explanation of professional judgment: Reel 03 or 07.</li>
+<li>A clear post explaining how to request an estimate.</li>
+</ul>
+<h3>Proposed Highlights:</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Highlight</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Projects</td>
+<td>Before, process, and result</td>
+</tr>
+<tr>
+<td>Process</td>
+<td>Protection, preparation, and walkthrough</td>
+</tr>
+<tr>
+<td>Color</td>
+<td>Samples and comparisons</td>
+</tr>
+<tr>
+<td>FAQs</td>
+<td>Questions received</td>
+</tr>
+<tr>
+<td>Reviews</td>
+<td>Authentic, authorized testimonials</td>
+</tr>
+<tr>
+<td>Estimates</td>
+<td>How to inquire</td>
+</tr>
+</tbody>
+</table></div>
+</section><section class="chapter chapter-13" aria-labelledby="chapter-13"><h2 id="chapter-13"><span class="chapter-no">13</span><span>Production plan</span></h2><p>To produce the content, I need to gather:</p>
+<ul>
+<li>Authorized spaces and projects.</li>
+<li>Identified samples and products.</li>
+<li>Before, during, and after materials.</li>
+<li>A team member who can explain the examples.</li>
+<li>Confirmation of recommendations and services.</li>
+<li>Contact information and service coverage.</li>
+</ul>
+<h3>Proposed workflow</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Action</th>
+<th>Outcome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Preparation</td>
+<td>Select projects, cases, and materials</td>
+<td>Shot list</td>
+</tr>
+<tr>
+<td>First batch</td>
+<td>Produce 01, 02, 03, 06, and 07</td>
+<td>Initial Reels and supporting assets</td>
+</tr>
+<tr>
+<td>Adaptation</td>
+<td>Create carousels and Stories from those resources</td>
+<td>First weeks ready</td>
+</tr>
+<tr>
+<td>Publishing</td>
+<td>Execute the calendar and respond</td>
+<td>Conversations and data</td>
+</tr>
+<tr>
+<td>Weekly review</td>
+<td>Evaluate questions and results</td>
+<td>Adjustments for the next batch</td>
+</tr>
+<tr>
+<td>Cycle wrap-up</td>
+<td>Compare content performance and business opportunities</td>
+<td>Plan for the next period</td>
+</tr>
+</tbody>
+</table></div>
+<h3>Responsibilities to agree on</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Role</th>
+<th>Responsibility</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>My content coordination</td>
+<td>Organize topics, scripts, calendar, and review</td>
+</tr>
+<tr>
+<td>Picasso representative</td>
+<td>Confirm services, recommendations, and conditions</td>
+</tr>
+<tr>
+<td>Filming lead</td>
+<td>Capture footage according to the shot list</td>
+</tr>
+<tr>
+<td>Editing and design</td>
+<td>Prepare Reels, carousels, and Stories</td>
+</tr>
+<tr>
+<td>Sales contact</td>
+<td>Respond to and follow up on inquiries</td>
+</tr>
+</tbody>
+</table></div>
+<p>One person may cover several roles. What matters is defining who is accountable for each task.</p>
+</section><section class="chapter chapter-14" aria-labelledby="chapter-14"><h2 id="chapter-14"><span class="chapter-no">14</span><span>Publishing criteria</span></h2><p>Before publishing, I will review:</p>
+<ul>
+<li>Whether the hook matches what the content delivers.</li>
+<li>Whether the example is real or identified as a demonstration.</li>
+<li>Whether the images make the explanation observable.</li>
+<li>Whether claims match the product and the case.</li>
+<li>Whether the service mentioned has been confirmed.</li>
+<li>Whether there is a clear next action.</li>
+</ul>
+<p>Simulations will be labeled. I will not identify the causes of stains, cracks, or peeling based only on appearance, nor will I present other people’s results as Picasso’s work.</p>
+</section><section class="chapter chapter-15" aria-labelledby="chapter-15"><h2 id="chapter-15"><span class="chapter-no">15</span><span>How I will measure results</span></h2><div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Level</th>
+<th>What I will review</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Attention</td>
+<td>Reach, views, and available playback metrics</td>
+<td>Understand what attracts interest</td>
+</tr>
+<tr>
+<td>Usefulness</td>
+<td>Saves, shares, and relevant questions</td>
+<td>Identify helpful topics</td>
+</tr>
+<tr>
+<td>Intent</td>
+<td>Profile visits, clicks, and inquiries</td>
+<td>Evaluate movement toward contact</td>
+</tr>
+<tr>
+<td>Opportunity</td>
+<td>Inquiries within the service area and service scope</td>
+<td>Measure commercial fit</td>
+</tr>
+<tr>
+<td>Sales</td>
+<td>Site visits, estimates, and booked jobs</td>
+<td>Connect content to the business</td>
+</tr>
+<tr>
+<td>Operations</td>
+<td>Response times and production</td>
+<td>Adjust the workload</td>
+</tr>
+</tbody>
+</table></div>
+<p>I will record results at seven and thirty days after each main post. I will separate organic from paid performance and compare posts at equivalent ages.</p>
+<p>To attribute inquiries, I will use the information available: the post mentioned, the link used, or the prospect’s answer about how they heard of Picasso. Attribution will be approximate when data is missing.</p>
+</section><section class="chapter chapter-16" aria-labelledby="chapter-16"><h2 id="chapter-16"><span class="chapter-no">16</span><span>How I will decide what to repeat</span></h2><p>During the first cycle, I will look to answer:</p>
+<ul>
+<li>Which topics generate questions from homeowners?</li>
+<li>Which hooks keep people watching?</li>
+<li>Which content leads to relevant inquiries?</li>
+<li>Which questions appear repeatedly?</li>
+<li>Which formats can we produce consistently?</li>
+</ul>
+<p>I will not consider a piece a winner solely because of its view count. Its evaluation will depend on the role assigned to it.</p>
+<p>At the end of five weeks, I will propose which series to repeat, which openings to adjust, and which new questions to develop.</p>
+</section><section class="chapter chapter-17" aria-labelledby="chapter-17"><h2 id="chapter-17"><span class="chapter-no">17</span><span>What still needs to be confirmed with Picasso</span></h2><p>To turn this preliminary plan into a final calendar, I will agree on:</p>
+<ol>
+<li>Service area and priority services.</li>
+<li>Available projects and examples.</li>
+<li>Technical lead and spokesperson.</li>
+<li>Filming, editing, and inquiry-management owners.</li>
+<li>Production dates and launch date.</li>
+<li>Access to performance analytics and sales tracking.</li>
+</ol>
+<p>With these decisions in place, the proposal can move into production while keeping what we show, what we explain, and the services we offer aligned.</p>
+</section>
+<footer class="report-footer"><span><strong>PICASSO PAINTING</strong></span><span>Working document · Picasso Painting</span></footer>
+</main></body></html>
