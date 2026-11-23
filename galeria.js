@@ -1,13 +1,13 @@
 // Galería: carrusel de la portada, franja de fotos en cada página y cuadrícula de galeria.html
 (function(){
-const N=32,photos=Array.from({length:N},(_,i)=>'img/galeria/g'+String(i+1).padStart(2,'0')+'.jpg');
+const N=10,photos=Array.from({length:N},(_,i)=>'img/trabajos/t'+String(i+1).padStart(2,'0')+'.jpg');
 const alt='Picasso Painting project photo';
 const arrow=(cls,label,txt)=>`<button type="button" class="gal-arrow ${cls}" aria-label="${label}">${txt}</button>`;
 
 // Portada: la foto actual del hero pasa a ser la primera de un carrusel con flechas.
 const hero=document.querySelector('.hero-photo');
 if(hero){
-  const img=hero.querySelector('img'),slides=[img.src,...photos.slice(0,6)];let i=0;
+  const img=hero.querySelector('img'),slides=[img.src,...photos];let i=0;
   hero.insertAdjacentHTML('beforeend',arrow('gal-prev','Previous photo','‹')+arrow('gal-next','Next photo','›'));
   const go=d=>{i=(i+d+slides.length)%slides.length;img.src=slides[i];img.alt=i?alt:img.dataset.alt;new Image().src=slides[(i+1)%slides.length];};
   img.dataset.alt=img.alt;
