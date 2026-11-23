@@ -76,3 +76,4 @@
 .owner-grid h2{margin:6px 0 4px}
 .owner .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
 @media(max-width:900px){.owner-grid{grid-template-columns:1fr;gap:28px}.owner-grid img{max-width:420px}}
+.trust .falta{opacity:1;margin-top:8px}
