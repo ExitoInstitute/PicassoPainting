@@ -77,3 +77,32 @@
 .owner .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
 @media(max-width:900px){.owner-grid{grid-template-columns:1fr;gap:28px}.owner-grid img{max-width:420px}}
 .trust .falta{opacity:1;margin-top:8px}
+
+/* Punto 6: los tres puntos del hero, más grandes y centrados bajo los botones */
+.hero-words{font-size:14px;gap:10px;margin-top:30px;justify-content:center}
+.hero-words span{background:#fff;border:1px solid var(--line);border-radius:999px;padding:8px 14px;white-space:nowrap;box-shadow:0 4px 14px rgba(16,49,68,.06);color:var(--navy)}
+@media(max-width:900px){.hero-words{justify-content:flex-start;font-size:14px}}
+
+/* Punto 6: íconos en la franja de confianza (licencia, BBB, referencias) */
+.strip-item{display:grid;grid-template-columns:52px 1fr;column-gap:18px;align-content:start}
+.strip-item>:not(.strip-icon){grid-column:2}
+.strip-icon{grid-row:1/span 3;width:52px;height:52px;display:flex;align-items:center;justify-content:center;border-radius:50%;background:var(--sea);color:var(--blue)}
+.strip-icon svg{width:26px;height:26px}
+.strip-seal{width:auto;height:64px;border-radius:4px;background:#fff;object-fit:contain}
+.strip-item b{font-size:15px}
+.strip-item p{font-size:13px}
+
+/* Punto 6: logos de BBB y Yelp en los sellos, y marcas de pintura */
+.trust-logo{display:block;height:44px;width:auto;margin-bottom:12px;padding:4px;background:#fff;border-radius:4px}
+.trust-logo-wide{height:34px;padding:4px 8px}
+.brands{margin-top:34px;text-align:center}
+.brands p{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:800;opacity:.8;margin:0 0 16px}
+.brand-logos{display:flex;flex-wrap:wrap;justify-content:center;gap:16px}
+.brand-logos img{height:72px;width:auto;max-width:200px;object-fit:contain;background:#fff;border-radius:6px;padding:8px 14px}
+@media(max-width:900px){.brand-logos img{height:56px;max-width:150px}}
+
+/* Punto 7: subtítulos (eyebrows) más grandes en toda la web */
+.eyebrow{font-size:14px}
+/* Punto 7: en Referencias, el texto del directorio va debajo del título, no a la derecha */
+.references-head{display:block}
+.references-head p{margin-top:16px;max-width:760px;font-size:15px}
