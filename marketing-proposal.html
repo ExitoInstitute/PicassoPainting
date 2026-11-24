@@ -1,0 +1,637 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Marketing Proposal | Picasso Painting</title>
+<style>
+:root{--navy:#142f42;--deep:#0b2535;--blue:#1b628d;--sea:#eaf0ec;--cream:#f8f7f2;--gold:#ae9168;--line:#dbe2de;--muted:#566b75;--white:#fff;
+--serif:"Iowan Old Style","Baskerville","Palatino Linotype","Book Antiqua",Georgia,serif;--sans:"Avenir Next","Segoe UI",system-ui,-apple-system,sans-serif}
+*{box-sizing:border-box}
+html[lang=en] .es,html[lang=es] .en{display:none!important}
+body{margin:0;background:var(--cream);color:var(--navy);font:16px/1.65 var(--sans)}
+a{color:var(--blue)}
+.wrap{width:min(1180px,calc(100% - 32px));margin:auto}
+header.top{position:sticky;top:0;z-index:20;background:rgba(248,247,242,.97);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:72px}
+.top img{height:44px;width:auto}
+.top nav{display:flex;gap:18px;font-size:13px;font-weight:700;flex-wrap:wrap}
+.top nav a{color:var(--navy);text-decoration:none}
+.top nav a:hover{color:var(--blue)}
+.lang{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:#fff;flex:none}
+.lang button{border:0;background:none;padding:8px 14px;font:800 12px var(--sans);letter-spacing:.08em;color:var(--muted);cursor:pointer}
+.lang button[aria-pressed=true]{background:var(--navy);color:#fff}
+.hero{background:linear-gradient(135deg,var(--deep),var(--navy));color:#fff;padding:80px 0 70px}
+.eyebrow{font-size:13px;letter-spacing:.18em;text-transform:uppercase;font-weight:800;color:var(--gold);display:flex;gap:12px;align-items:center;margin-bottom:14px}
+.eyebrow:before{content:"";width:28px;height:1px;background:var(--gold)}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacing:-.02em;margin:0 0 14px}
+h1{font-size:clamp(40px,6vw,70px)}
+h2{font-size:clamp(30px,4vw,46px)}
+h3{font-size:24px}
+.hero p{max-width:760px;font-size:19px;color:#d7e3e7}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:40px}
+.stat{border:1px solid rgba(255,255,255,.18);border-radius:8px;padding:18px}
+.stat b{display:block;font:500 38px var(--serif);color:#fff}
+.stat span{font-size:13px;color:#c4d5da}
+section.s{padding:72px 0;border-bottom:1px solid var(--line);scroll-margin-top:72px}
+section.alt{background:var(--sea)}
+.lead{font-size:18px;color:var(--muted);max-width:820px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:22px}
+.card h3{font-size:21px}
+.card small,.tag{display:inline-block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:var(--blue)}
+.tag{background:var(--sea);border-radius:999px;padding:3px 10px;margin:0 6px 6px 0}
+.tag.gold{background:#f3ebdd;color:#7a5f36}
+.tag.navy{background:var(--navy);color:#fff}
+table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);font-size:14px}
+th,td{text-align:left;padding:11px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--navy);color:#fff;font-size:12px;letter-spacing:.06em;text-transform:uppercase}
+.tablewrap{overflow-x:auto;border-radius:8px}
+.num{text-align:right;font-variant-numeric:tabular-nums}
+.hook{font-family:var(--serif);font-size:17px;color:var(--navy)}
+.muted{color:var(--muted);font-size:14px}
+.week{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:22px}
+.slot{background:#fff;border:1px solid var(--line);border-top:4px solid var(--blue);border-radius:8px;padding:16px}
+.slot.reel{border-top-color:var(--navy)}.slot.car{border-top-color:var(--blue)}.slot.img{border-top-color:var(--gold)}.slot.st{border-top-color:#6f9c8f}
+.slot b{display:block;font-size:15px}
+.slot .day{font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.script{border-left:3px solid var(--gold);background:#fff;padding:16px 18px;border-radius:0 8px 8px 0;margin-bottom:14px}
+.script ol{margin:8px 0 0;padding-left:18px;font-size:14px}
+.filters{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}
+.filters select,.filters input{font:14px var(--sans);padding:9px 12px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--navy)}
+.cal td:first-child{white-space:nowrap;font-weight:700}
+.wk td{font-size:13px}
+.wk .theme{font-weight:800}
+.badge{display:inline-block;font-size:11px;font-weight:800;padding:2px 8px;border-radius:999px;margin-top:4px}
+.b-live{background:#f3ebdd;color:#7a5f36}.b-warm{background:var(--sea);color:var(--blue)}.b-ever{background:#eef1f3;color:var(--muted)}
+.score{font:600 22px var(--serif)}
+.callout{background:#fff8ec;border:1px solid #ecdcbf;border-radius:8px;padding:16px 18px;font-size:14px}
+footer{background:var(--deep);color:#b8cad0;padding:40px 0;font-size:13px}
+footer a{color:#e3c99f}
+ul.clean{padding-left:18px}ul.clean li{margin-bottom:6px}
+@media(max-width:900px){.grid2,.grid3,.stats{grid-template-columns:1fr 1fr}.week{grid-template-columns:1fr 1fr}.top nav{display:none}}
+@media(max-width:560px){.grid2,.grid3,.stats,.week{grid-template-columns:1fr}section.s{padding:52px 0}.hero{padding:56px 0}}
+@media print{header.top{position:static}.lang{display:none}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+ <a href="index.html"><img src="img/logo-horizontal.png" alt="Picasso Painting &amp; Scaffolding" width="760" height="160"></a>
+ <nav>
+  <a href="#strategy"><span class="en">Strategy</span><span class="es">Estrategia</span></a>
+  <a href="#weekly"><span class="en">Weekly plan</span><span class="es">Plan semanal</span></a>
+  <a href="#reels"><span class="en">Reels</span><span class="es">Reels</span></a>
+  <a href="#seasons"><span class="en">Seasons</span><span class="es">Temporadas</span></a>
+  <a href="#calendar"><span class="en">Calendar</span><span class="es">Calendario</span></a>
+  <a href="#kpis">KPIs</a>
+ </nav>
+ <div class="lang" role="group" aria-label="Language / Idioma"><button type="button" data-lang="en" aria-pressed="true">EN</button><button type="button" data-lang="es" aria-pressed="false">ES</button></div>
+</div></header>
+
+<section class="hero"><div class="wrap">
+ <div class="eyebrow"><span class="en">Marketing Proposal · Dec 2026 – Dec 2027</span><span class="es">Propuesta de marketing · dic 2026 – dic 2027</span></div>
+ <h1><span class="en">More than paint. Preparation you can see.</span><span class="es">Más que pintura. Preparación que se ve.</span></h1>
+ <p><span class="en">A social content strategy for Picasso Painting &amp; Scaffolding: Reels, carousels, image posts and Stories built to turn Bay Area homeowners, property managers and businesses into free-estimate requests.</span><span class="es">Estrategia de contenido para redes de Picasso Painting &amp; Scaffolding: Reels, carruseles, imágenes e historias pensados para convertir a propietarios, administradores y negocios de la Bay Area en solicitudes de estimado gratis.</span></p>
+ <div class="stats">
+  <div class="stat"><b>5</b><span class="en">pieces every week</span><span class="es">piezas cada semana</span></div>
+  <div class="stat"><b>57</b><span class="en">weeks fully planned</span><span class="es">semanas planificadas</span></div>
+  <div class="stat"><b>35</b><span class="en">seasonal dates &amp; campaigns</span><span class="es">fechas y campañas</span></div>
+  <div class="stat"><b>15</b><span class="en">ready-to-film Reel scripts</span><span class="es">guiones de Reel listos</span></div>
+ </div>
+</div></section>
+
+<section class="s" id="strategy"><div class="wrap">
+ <div class="eyebrow"><span class="en">1 · The strategy in one page</span><span class="es">1 · La estrategia en una página</span></div>
+ <h2><span class="en">Show the work nobody else shows.</span><span class="es">Mostrar el trabajo que nadie más enseña.</span></h2>
+ <p class="lead"><span class="en">Local competitors already say "quality" and "experience". Picasso wins by showing what usually stays invisible: how a surface is diagnosed, prepared and protected, how access is solved with scaffolding, and how the owner checks every job. Every piece is filmed on real jobs, with real proof, and ends in one clear next step: a free estimate.</span><span class="es">Los competidores locales ya dicen «calidad» y «experiencia». Picasso gana mostrando lo que normalmente no se ve: cómo se diagnostica, prepara y protege una superficie, cómo se resuelve el acceso con andamios y cómo el dueño revisa cada trabajo. Todo se graba en obras reales, con pruebas reales, y termina en un único paso: el estimado gratis.</span></p>
+ <div class="grid3" style="margin-top:28px">
+  <div class="card"><small>Reels</small><h3><span class="en">Discover</span><span class="es">Descubrir</span></h3><p class="muted"><span class="en">Reach new local homeowners. One Reel per week, hook in the first 3 seconds, proof inside the video.</span><span class="es">Llegar a nuevos propietarios locales. Un Reel por semana, gancho en los primeros 3 segundos y la prueba dentro del vídeo.</span></p></div>
+  <div class="card"><small><span class="en">Carousels &amp; images</span><span class="es">Carruseles e imágenes</span></small><h3><span class="en">Save</span><span class="es">Guardar</span></h3><p class="muted"><span class="en">Checklists and transformations people keep and share. Real job photos only.</span><span class="es">Checklists y transformaciones que la gente guarda y comparte. Solo fotos de obras reales.</span></p></div>
+  <div class="card"><small><span class="en">Stories</span><span class="es">Historias</span></small><h3><span class="en">Trust &amp; convert</span><span class="es">Confiar y convertir</span></h3><p class="muted"><span class="en">Where people ask, see proof and request the estimate (keyword replies, link stickers).</span><span class="es">Donde la gente pregunta, ve pruebas y pide el estimado (respuestas con palabra clave y stickers de enlace).</span></p></div>
+ </div>
+ <h3 style="margin-top:44px"><span class="en">Who we talk to</span><span class="es">A quién le hablamos</span></h3>
+ <div class="tablewrap"><table>
+  <tr><th><span class="en">Audience</span><span class="es">Público</span></th><th><span class="en">Main need</span><span class="es">Necesidad principal</span></th><th><span class="en">Content that speaks to them</span><span class="es">Contenido que le habla</span></th></tr>
+  <tr><td><span class="en">Coastside &amp; Peninsula homeowners</span><span class="es">Propietarios de la costa y la Península</span></td><td><span class="en">Protect and refresh the home against fog, salt and rain</span><span class="es">Proteger y renovar la casa contra niebla, sal y lluvia</span></td><td><span class="en">Peeling diagnosis, prep, transformations, wood care</span><span class="es">Diagnóstico de pintura pelada, preparación, transformaciones, cuidado de madera</span></td></tr>
+  <tr><td><span class="en">San Francisco &amp; East Bay owners of multi-story homes</span><span class="es">Dueños de casas de varios pisos en San Francisco y East Bay</span></td><td><span class="en">Safe access, clean work, clear scope</span><span class="es">Acceso seguro, trabajo limpio, alcance claro</span></td><td><span class="en">Scaffolding series, protection, estimate walkthroughs</span><span class="es">Serie de andamios, protección, cómo leer un estimado</span></td></tr>
+  <tr><td><span class="en">Property managers, contractors &amp; small businesses</span><span class="es">Administradores, contratistas y pequeños negocios</span></td><td><span class="en">Reliability and coordination without closing</span><span class="es">Fiabilidad y coordinación sin cerrar</span></td><td><span class="en">Occupied-business repaints, access weeks, phased plans</span><span class="es">Repintar negocios abiertos, semanas de acceso, planes por fases</span></td></tr>
+ </table></div>
+ <h3 style="margin-top:44px"><span class="en">What people are already searching</span><span class="es">Lo que la gente ya está buscando</span></h3>
+ <p class="muted"><span class="en">Estimated monthly US Google searches (national, from the commercial planner). They tell us which questions the content must answer.</span><span class="es">Búsquedas mensuales estimadas en Google en EE. UU. (nacionales, del planificador comercial). Indican qué preguntas debe responder el contenido.</span></p>
+ <div class="tablewrap"><table>
+  <tr><th><span class="en">Search</span><span class="es">Búsqueda</span></th><th class="num"><span class="en">Monthly</span><span class="es">Mensual</span></th><th><span class="en">What it tells us</span><span class="es">Qué indica</span></th></tr>
+  <tr><td><code>painters near me</code></td><td class="num">59,000</td><td><span class="en">The person is already looking for someone to call.</span><span class="es">La persona ya está buscando a quién llamar.</span></td></tr><tr><td><code>drywall repair</code></td><td class="num">58,000</td><td><span class="en">There is concrete damage. Our angle: repair it and leave the wall ready to paint.</span><span class="es">Hay un daño concreto. Nuestro ángulo: repararla y dejarla lista para pintar.</span></td></tr><tr><td><code>house painters near me</code></td><td class="num">31,000</td><td><span class="en">They want to hire for a home and are comparing providers.</span><span class="es">Quiere contratar para una vivienda y compara proveedores.</span></td></tr><tr><td><code>exterior painting</code></td><td class="num">30,000</td><td><span class="en">Planning a new look or trying to stop deterioration.</span><span class="es">Planea un cambio de imagen o quiere frenar el deterioro.</span></td></tr><tr><td><code>interior painting</code></td><td class="num">26,000</td><td><span class="en">Renovating a room, repairing a wall or preparing a property.</span><span class="es">Renueva una habitación, repara una pared o prepara una propiedad.</span></td></tr><tr><td><code>commercial painting</code></td><td class="num">17,000</td><td><span class="en">Needs to coordinate schedules, access and business continuity.</span><span class="es">Necesita coordinar horarios, acceso y continuidad del negocio.</span></td></tr><tr><td><code>deck staining</code></td><td class="num">9,700</td><td><span class="en">Wants to recover or protect an outdoor wood surface.</span><span class="es">Quiere recuperar o proteger una superficie de madera exterior.</span></td></tr><tr><td colspan="3" class="muted"><span class="en">Also tracked: exterior house painting cost, why is my exterior paint peeling, scaffolding for exterior painting, scaffolding rental near me, deck staining near me, commercial painters near me.</span><span class="es">También se siguen: exterior house painting cost, why is my exterior paint peeling, scaffolding for exterior painting, scaffolding rental near me, deck staining near me, commercial painters near me.</span></td></tr>
+ </table></div>
+ <h3 style="margin-top:44px"><span class="en">Content mix</span><span class="es">Mezcla de contenido</span></h3>
+ <div class="grid3">
+  <div class="card"><span class="tag navy">25%</span><h3><span class="en">Reach</span><span class="es">Alcance</span></h3><p class="muted"><span class="en">Transformations, scaffolding moments, satisfying washes. No lesson, no hard sell: they make the brand recognizable.</span><span class="es">Transformaciones, momentos de andamio, lavados satisfactorios. Sin lección ni venta: hacen reconocible la marca.</span></p></div>
+  <div class="card"><span class="tag">25%</span><h3><span class="en">Followers</span><span class="es">Seguidores</span></h3><p class="muted"><span class="en">Useful value with a clear takeaway (how to spot failing paint, how to read an estimate) and a real reason to follow.</span><span class="es">Valor útil con una enseñanza clara (cómo detectar pintura que falla, cómo leer un estimado) y un motivo real para seguir.</span></p></div>
+  <div class="card"><span class="tag gold">50%</span><h3><span class="en">Leads</span><span class="es">Clientes</span></h3><p class="muted"><span class="en">Every lead piece ends in one action: comment a keyword, DM, or tap the Free Estimate link.</span><span class="es">Cada pieza de venta termina en una acción: comentar una palabra clave, escribir por DM o tocar el enlace al estimado gratis.</span></p></div>
+ </div>
+ <p class="muted" style="margin-top:10px"><span class="en">Split taken from the Maestro viral methodology ("Partes del Video"); it is a guide to adjust with real results.</span><span class="es">Reparto tomado de la metodología Maestro de viralidad («Partes del Video»); es una guía que se ajusta con los resultados reales.</span></p>
+ <h3 style="margin-top:44px"><span class="en">The content series</span><span class="es">Las series de contenido</span></h3>
+ <div class="grid3"><div class="card"><small><span class="en">Spot the problem</span><span class="es">Detectar el problema</span></small><h3><span class="en">What's Wrong With This Wall?</span><span class="es">¿Qué le pasa a esta pared?</span></h3><p class="muted"><span class="en">Diagnose real peeling, cracks and moisture, then show the professional fix.</span><span class="es">Diagnosticar pintura pelada, grietas y humedad reales, y mostrar el arreglo profesional.</span></p></div><div class="card"><small><span class="en">Visual breakdown</span><span class="es">Desglose visual</span></small><h3><span class="en">Before the First Coat</span><span class="es">Antes de la primera mano</span></h3><p class="muted"><span class="en">The prep homeowners never see: protection, washing, scraping, priming, caulking.</span><span class="es">La preparación que el cliente nunca ve: protección, lavado, raspado, imprimación, sellado.</span></p></div><div class="card"><small><span class="en">Progressive reveal</span><span class="es">Revelado progresivo</span></small><h3><span class="en">The Picasso Transformation</span><span class="es">La transformación Picasso</span></h3><p class="muted"><span class="en">Same angle before and after, with the process that explains the change.</span><span class="es">Mismo ángulo antes y después, con el proceso que explica el cambio.</span></p></div><div class="card"><small><span class="en">Transparency</span><span class="es">Transparencia</span></small><h3><span class="en">Ask the Painter</span><span class="es">Pregúntale al pintor</span></h3><p class="muted"><span class="en">Estimates, costs, how long paint lasts, how to choose a painter.</span><span class="es">Estimados, costos, cuánto dura la pintura, cómo elegir pintor.</span></p></div><div class="card"><small><span class="en">Build with me</span><span class="es">Construir conmigo</span></small><h3><span class="en">Access & Scaffolding</span><span class="es">Acceso y andamios</span></h3><p class="muted"><span class="en">Why a home needs scaffolding and how access is quoted. Our D39 license sets us apart.</span><span class="es">Por qué una casa necesita andamio y cómo se cotiza el acceso. La licencia D39 nos diferencia.</span></p></div><div class="card"><small><span class="en">Novelty</span><span class="es">Novedad</span></small><h3><span class="en">Color & Light</span><span class="es">Color y luz</span></h3><p class="muted"><span class="en">How color changes with light, 2027 colors of the year, test before you commit.</span><span class="es">Cómo cambia el color con la luz, colores del año 2027, probar antes de decidir.</span></p></div><div class="card"><small><span class="en">Real story</span><span class="es">Historia real</span></small><h3><span class="en">Meet the Crew</span><span class="es">Conoce al equipo</span></h3><p class="muted"><span class="en">Nain's final inspection, a day on the job, real reviews.</span><span class="es">La inspección final de Nain, un día en la obra, reseñas reales.</span></p></div><div class="card"><small><span class="en">Satisfying</span><span class="es">Satisfactorio</span></small><h3><span class="en">Outdoor Wood & Washing</span><span class="es">Madera exterior y lavado</span></h3><p class="muted"><span class="en">Pressure washing, decks and fences: what can be saved and why washing comes first.</span><span class="es">Lavado a presión, decks y cercas: qué se puede salvar y por qué se lava primero.</span></p></div></div>
+</div></section>
+
+<section class="s alt" id="weekly"><div class="wrap">
+ <div class="eyebrow"><span class="en">2 · Weekly rhythm</span><span class="es">2 · Ritmo semanal</span></div>
+ <h2><span class="en">5 pieces, every single week.</span><span class="es">5 piezas, todas las semanas.</span></h2>
+ <p class="lead"><span class="en">Seasonal campaigns change the topic; the rhythm never changes. Post between 12 pm and 7 pm Pacific, a little before the audience peak shown in Instagram insights.</span><span class="es">Las campañas de temporada cambian el tema; el ritmo nunca cambia. Publicar entre las 12 y las 19 h (hora del Pacífico), un poco antes del pico de audiencia que muestren las estadísticas de Instagram.</span></p>
+ <div class="week">
+  <div class="slot st"><span class="day"><span class="en">Monday</span><span class="es">Lunes</span></span><b><span class="en">Story 1 · Question</span><span class="es">Historia 1 · Pregunta</span></b><p class="muted"><span class="en">Open with a question to the audience (question box or "reply with a keyword"). Starts the conversation of the week.</span><span class="es">Abrir con una pregunta (caja de preguntas o «responde con una palabra»). Inicia la conversación de la semana.</span></p></div>
+  <div class="slot reel"><span class="day"><span class="en">Tuesday</span><span class="es">Martes</span></span><b>Reel</b><p class="muted"><span class="en">45–60 s. Hook → context → takeaway → CTA. The main discovery piece.</span><span class="es">45–60 s. Gancho → contexto → enseñanza → CTA. La pieza principal para descubrir.</span></p></div>
+  <div class="slot car"><span class="day"><span class="en">Thursday</span><span class="es">Jueves</span></span><b><span class="en">Carousel</span><span class="es">Carrusel</span></b><p class="muted"><span class="en">A checklist or a same-angle transformation people save. Real photos, one idea per slide.</span><span class="es">Un checklist o una transformación del mismo ángulo para guardar. Fotos reales, una idea por diapositiva.</span></p></div>
+  <div class="slot st"><span class="day"><span class="en">Friday</span><span class="es">Viernes</span></span><b><span class="en">Story 2 · Proof + CTA</span><span class="es">Historia 2 · Prueba + CTA</span></b><p class="muted"><span class="en">Real job proof (BTS, review, result) and one call to action with a keyword or link sticker.</span><span class="es">Prueba de una obra real (BTS, reseña, resultado) y una sola llamada a la acción con palabra clave o sticker de enlace.</span></p></div>
+  <div class="slot img"><span class="day"><span class="en">Saturday</span><span class="es">Sábado</span></span><b><span class="en">Image post</span><span class="es">Imagen</span></b><p class="muted"><span class="en">One strong finished-job photo or a date greeting. A short line, the area served, the estimate link.</span><span class="es">Una foto potente de un trabajo terminado o un saludo de la fecha. Una frase corta, la zona y el enlace al estimado.</span></p></div>
+ </div>
+ <div class="callout" style="margin-top:22px"><span class="en"><b>Growth option:</b> the Maestro methodology recommends at least 3 Reels a week and daily Stories to grow faster, and no more than 3 carousels a month. The 5-piece week is the committed base; add extra Reels and Stories when the crew has footage.</span><span class="es"><b>Opción de crecimiento:</b> la metodología Maestro recomienda al menos 3 Reels por semana e historias a diario para crecer más rápido, y no más de 3 carruseles al mes. La semana de 5 piezas es la base comprometida; se suman Reels e historias cuando el equipo tenga material.</span></div>
+</div></section>
+
+<section class="s" id="playbook"><div class="wrap">
+ <div class="eyebrow"><span class="en">3 · Format playbook</span><span class="es">3 · Guía de formatos</span></div>
+ <h2><span class="en">How every piece is built.</span><span class="es">Cómo se construye cada pieza.</span></h2>
+ <div class="grid2">
+  <div class="card"><small>Reels</small><h3><span class="en">Structure</span><span class="es">Estructura</span></h3><ul class="clean">
+   <li><span class="en">Hook (0–3 s) → curiosity → proof → payoff → CTA. Never hook → filler → CTA.</span><span class="es">Gancho (0–3 s) → curiosidad → prueba → recompensa → CTA. Nunca gancho → relleno → CTA.</span></li>
+   <li><span class="en">Triple hook: spoken line, on-screen text and image say the same thing. Mute test: it must still make sense.</span><span class="es">Triple gancho: la frase, el texto en pantalla y la imagen dicen lo mismo. Prueba sin audio: debe entenderse igual.</span></li>
+   <li><span class="en">On-screen text: max 2 lines, about 3 s, never covering the face or the demo.</span><span class="es">Texto en pantalla: máximo 2 líneas, unos 3 s, sin tapar la cara ni la demostración.</span></li>
+   <li><span class="en">Seconds 3–10 confirm the promise and show early proof. Show &gt; claim.</span><span class="es">Los segundos 3–10 confirman la promesa y muestran una prueba temprana. Mostrar &gt; afirmar.</span></li>
+   <li><span class="en">Announce how many points ("3 things") and keep the reveal for the end.</span><span class="es">Anunciar cuántos puntos hay («3 cosas») y dejar la revelación para el final.</span></li>
+   <li><span class="en">Film in 0.5× with room for text; something new happens in every shot.</span><span class="es">Grabar en 0.5× con aire para el texto; en cada toma pasa algo nuevo.</span></li>
+  </ul></div>
+  <div class="card"><small><span class="en">Carousels &amp; images</span><span class="es">Carruseles e imágenes</span></small><h3><span class="en">Rules</span><span class="es">Reglas</span></h3><ul class="clean">
+   <li><span class="en">One mental unit per piece ("your home", "your deck"): never mix price, color and guarantee.</span><span class="es">Una sola idea por pieza («tu casa», «tu deck»): nunca mezclar precio, color y garantía.</span></li>
+   <li><span class="en">First slide shows the image or number before explaining it (open loop).</span><span class="es">La primera diapositiva muestra la imagen o el número antes de explicarlo (bucle abierto).</span></li>
+   <li><span class="en">Every slide pays off something; the last one gives the next step.</span><span class="es">Cada diapositiva entrega algo; la última da el siguiente paso.</span></li>
+   <li><span class="en">Make it worth saving for real (a checklist), not because it says "save this".</span><span class="es">Que valga la pena guardarlo de verdad (un checklist), no porque diga «guárdalo».</span></li>
+   <li><span class="en">Pin the 3 best: a transformation, how we work, what you get when you hire us.</span><span class="es">Fijar los 3 mejores: una transformación, cómo trabajamos y qué obtienes al contratarnos.</span></li>
+  </ul></div>
+  <div class="card"><small><span class="en">Stories</span><span class="es">Historias</span></small><h3><span class="en">Rules</span><span class="es">Reglas</span></h3><ul class="clean">
+   <li><span class="en">Open with a question: it multiplies Story views (Maestro).</span><span class="es">Abrir con una pregunta: multiplica las vistas de las historias (Maestro).</span></li>
+   <li><span class="en">5+3 method for offer weeks: hook → 3 proof stories → keyword CTA; 1.5–2 h later, 3 reinforcement stories.</span><span class="es">Método 5+3 en semanas de oferta: gancho → 3 historias de prueba → CTA con palabra clave; 1,5–2 h después, 3 historias de refuerzo.</span></li>
+   <li><span class="en">Rotate formats (photo + text, POV, B-roll, selfie, Q&amp;A, vlog); never the same one 3 times in a row.</span><span class="es">Alternar formatos (foto con texto, POV, B-roll, selfie, preguntas, vlog); nunca el mismo 3 veces seguidas.</span></li>
+   <li><span class="en">One objection a week (price, mess, timing, trust), answered with proof.</span><span class="es">Una objeción por semana (precio, desorden, tiempos, confianza), respondida con pruebas.</span></li>
+   <li><span class="en">Highlights: Start here · Results · How we work · Scaffolding · Reviews · Free estimate.</span><span class="es">Destacadas: Empieza aquí · Resultados · Cómo trabajamos · Andamios · Reseñas · Estimado gratis.</span></li>
+  </ul></div>
+  <div class="card"><small><span class="en">Before filming</span><span class="es">Antes de grabar</span></small><h3><span class="en">The 4/4 filter</span><span class="es">El filtro 4/4</span></h3><ul class="clean">
+   <li><span class="en">Understood instantly? Creates desire? Universal for Bay Area homeowners? Opens an automatic question?</span><span class="es">¿Se entiende al instante? ¿Genera deseo? ¿Es universal para propietarios de la Bay Area? ¿Abre una pregunta automática?</span></li>
+   <li><span class="en">4/4 film it · 3/4 rewrite the hook · 2/4 or less drop it.</span><span class="es">4/4 se graba · 3/4 se reescribe el gancho · 2/4 o menos se descarta.</span></li>
+   <li><span class="en">Then score it with the Viral Calculator (section 6).</span><span class="es">Después se puntúa con la Calculadora de Viralidad (sección 6).</span></li>
+   <li><span class="en">Never invent proof, prices, years in business or results. Real jobs, with the owner's permission.</span><span class="es">Nunca inventar pruebas, precios, años de experiencia ni resultados. Obras reales, con permiso del propietario.</span></li>
+  </ul></div>
+ </div>
+</div></section>
+
+<section class="s alt" id="hooks"><div class="wrap">
+ <div class="eyebrow"><span class="en">4 · Hook bank</span><span class="es">4 · Banco de ganchos</span></div>
+ <h2><span class="en">15 hook types, adapted to painting.</span><span class="es">15 tipos de gancho adaptados a pintura.</span></h2>
+ <p class="lead"><span class="en">From the Ganchos method and Kallaway's hook psychology. Hooks stay in English because they are published for the US audience.</span><span class="es">Del método Ganchos y la psicología de hooks de Kallaway. Los ganchos van en inglés porque se publican para el público de EE. UU.</span></p>
+ <div class="tablewrap"><table>
+  <tr><th><span class="en">Hook type</span><span class="es">Tipo de gancho</span></th><th><span class="en">How it works</span><span class="es">Cómo funciona</span></th><th>Hook A</th><th>Hook B</th></tr>
+  <tr><td><b><span class="en">Open loop</span><span class="es">Hoyo</span></b></td><td class="muted"><span class="en">Opens a curiosity gap without giving the answer.</span><span class="es">Abre un hueco de curiosidad sin dar la respuesta.</span></td><td class="hook">"This homeowner found something under their siding that changed the whole paint job."</td><td class="hook">"Nobody checks this before painting, and it's why paint fails early."</td></tr><tr><td><b><span class="en">Negative</span><span class="es">Negativo</span></b></td><td class="muted"><span class="en">Fear of losing weighs more than wanting to win.</span><span class="es">El miedo a perder pesa más que las ganas de ganar.</span></td><td class="hook">"Paint this over without prep and you'll pay to paint it twice."</td><td class="hook">"The fastest way to waste money on exterior paint."</td></tr><tr><td><b><span class="en">Odd connection</span><span class="es">Conexión discordante</span></b></td><td class="muted"><span class="en">Joins two things that don't seem to fit.</span><span class="es">Une dos cosas que no parecen encajar.</span></td><td class="hook">"What does a garden hose have to do with peeling paint?"</td><td class="hook">"What do a sprinkler and this ruined deck have in common?"</td></tr><tr><td><b><span class="en">Loaded question</span><span class="es">Pregunta inducida</span></b></td><td class="muted"><span class="en">Asks a question with an "obvious" answer, then flips it.</span><span class="es">Pregunta algo «obvio» y luego le da la vuelta.</span></td><td class="hook">"Isn't painting just rolling on two coats?"</td><td class="hook">"Doesn't the cheapest estimate save you money?"</td></tr><tr><td><b><span class="en">Common enemy</span><span class="es">Enemigo común</span></b></td><td class="muted"><span class="en">Blames something external, not the viewer.</span><span class="es">Culpa a algo externo, no a la persona.</span></td><td class="hook">"If your paint is peeling, it's probably not your fault. It's what was under it."</td><td class="hook">"Your deck isn't failing because of you. It's the sun and the sprinkler."</td></tr><tr><td><b><span class="en">Rule of 2</span><span class="es">Regla de 2</span></b></td><td class="muted"><span class="en">"Two things…" keeps it short and countable.</span><span class="es">«Dos cosas…» lo hace corto y contable.</span></td><td class="hook">"Two things decide if exterior paint lasts, and neither is the paint."</td><td class="hook">"If your estimate skips one of these two lines, ask why."</td></tr><tr><td><b><span class="en">Contrarian</span><span class="es">Contracorriente</span></b></td><td class="muted"><span class="en">An opinion against what most people believe.</span><span class="es">Una opinión contraria a lo que cree la mayoría.</span></td><td class="hook">"Most of a great paint job happens before we open a can."</td><td class="hook">"Sometimes repainting one wall is a bad idea."</td></tr><tr><td><b><span class="en">If you</span><span class="es">Si tú</span></b></td><td class="muted"><span class="en">Speaks to one concrete situation.</span><span class="es">Habla a una situación concreta.</span></td><td class="hook">"If you're getting exterior painting quotes, check for this line."</td><td class="hook">"If you run a business and need a repaint, don't close for it."</td></tr><tr><td><b><span class="en">Point</span><span class="es">Señalar</span></b></td><td class="muted"><span class="en">Points at an object so image and words match.</span><span class="es">Señala un objeto para que imagen y palabras coincidan.</span></td><td class="hook">"This crack is why this whole wall is peeling."</td><td class="hook">"This bucket of water tells me if a deck can be saved."</td></tr><tr><td><b><span class="en">Visual surprise</span><span class="es">Sorpresa visual</span></b></td><td class="muted"><span class="en">An unexpected action or image in the first frame.</span><span class="es">Una acción o imagen inesperada en el primer frame.</span></td><td class="hook">"Same deck. Ten seconds apart."</td><td class="hook">"This is step one of painting this house. (scaffold going up)"</td></tr><tr><td><b><span class="en">Reasons</span><span class="es">Razones</span></b></td><td class="muted"><span class="en">States the problem and gives the reasons.</span><span class="es">Plantea el problema y da las razones.</span></td><td class="hook">"The real reason this house needed scaffolding."</td><td class="hook">"Three reasons exterior paint peels, and the last one is the most common."</td></tr><tr><td><b><span class="en">Red button</span><span class="es">Botón rojo</span></b></td><td class="muted"><span class="en">"Don't do this" makes people want to watch.</span><span class="es">«No hagas esto» despierta las ganas de verlo.</span></td><td class="hook">"Don't sign a painting estimate until you see this."</td><td class="hook">"Never touch up one wall before checking this."</td></tr><tr><td><b><span class="en">One thing</span><span class="es">1 cosa</span></b></td><td class="muted"><span class="en">A single thing solves the problem.</span><span class="es">Una sola cosa resuelve el problema.</span></td><td class="hook">"One thing tells us if your paint will match."</td><td class="hook">"The one step most painters skip."</td></tr><tr><td><b><span class="en">To get X, don't Y</span><span class="es">Para X no hagas Y</span></b></td><td class="muted"><span class="en">Simplifies the path to a result.</span><span class="es">Simplifica el camino a un resultado.</span></td><td class="hook">"To make exterior paint last, don't start with paint."</td><td class="hook">"To save an old deck, don't just stain over it."</td></tr><tr><td><b><span class="en">The other day</span><span class="es">El otro día</span></b></td><td class="muted"><span class="en">A real situation that builds closeness (only with a real case).</span><span class="es">Una situación real que genera cercanía (solo con un caso real).</span></td><td class="hook">"The other day a client asked if we could repaint just one wall…"</td><td class="hook">"Last week the owner told us "just paint over it". We said no."</td></tr>
+ </table></div>
+</div></section>
+
+<section class="s" id="reels"><div class="wrap">
+ <div class="eyebrow"><span class="en">5 · Reel scripts</span><span class="es">5 · Guiones de Reels</span></div>
+ <h2><span class="en">15 Reels ready to film on real jobs.</span><span class="es">15 Reels listos para grabar en obras reales.</span></h2>
+ <p class="lead"><span class="en">Each script: hook (voice + on-screen text) → shots → payoff → CTA. Nain confirms every technical explanation on the actual job before filming.</span><span class="es">Cada guion: gancho (voz + texto en pantalla) → tomas → recompensa → CTA. Nain confirma cada explicación técnica en la obra real antes de grabar.</span></p>
+ <div class="grid2"><div class="script"><span class="tag gold"><span class="en">Leads</span><span class="es">Clientes</span></span><h3>1. <span class="en">What's in an exterior estimate</span><span class="es">Qué incluye un estimado exterior</span></h3>
+<p class="hook">🎙 "Don't sign an exterior painting estimate until you see this."</p><p class="muted"><span class="en">On-screen text</span><span class="es">Texto en pantalla</span>: <b>Exterior estimate / what's missing?</b></p>
+<ol><li><span class="en">Nain holds the estimate at the front door (point hook)</span><span class="es">Nain sostiene el estimado en la entrada (gancho señalar)</span></li><li><span class="en">Close-ups of each line: prep, repairs, protection, coats, paint, cleanup</span><span class="es">Primeros planos de cada renglón: preparación, reparaciones, protección, manos, pintura, limpieza</span></li><li><span class="en">Contrast: most quotes just say "paint house"</span><span class="es">Contraste: muchas cotizaciones solo dicen «pintar casa»</span></li></ol>
+<p><b><span class="en">Payoff</span><span class="es">Recompensa</span>:</b> <span class="en">If prep and repairs aren't written down, they're not included.</span><span class="es">Si la preparación y las reparaciones no están escritas, no están incluidas.</span></p><p><b>CTA:</b> <span class="hook">"Comment ESTIMATE and we'll send our checklist."</span></p></div><div class="script"><span class="tag "><span class="en">Followers</span><span class="es">Seguidores</span></span><h3>2. <span class="en">Why this paint failed</span><span class="es">Por qué falló esta pintura</span></h3>
+<p class="hook">🎙 "This peeling isn't a paint problem. It's what's under it."</p><p class="muted"><span class="en">On-screen text</span><span class="es">Texto en pantalla</span>: <b>Why this paint failed</b></p>
+<ol><li><span class="en">A hand lifts a peeling flake</span><span class="es">Una mano levanta una escama de pintura</span></li><li><span class="en">Camera finds the source seen on this house (moisture, bare wood, failed caulk)</span><span class="es">La cámara busca el origen visto en esta casa (humedad, madera expuesta, sellador roto)</span></li><li><span class="en">Scraping and priming</span><span class="es">Raspado e imprimación</span></li></ol>
+<p><b><span class="en">Payoff</span><span class="es">Recompensa</span>:</b> <span class="en">Most people repaint over it. That's why it peels again. Fix the cause, then paint.</span><span class="es">Mucha gente pinta encima y por eso vuelve a pelarse. Primero se corrige la causa y luego se pinta.</span></p><p><b>CTA:</b> <span class="hook">"Peeling at your place? Send us a photo."</span></p></div><div class="script"><span class="tag "><span class="en">Followers</span><span class="es">Seguidores</span></span><h3>3. <span class="en">Before we open a can</span><span class="es">Antes de abrir la lata</span></h3>
+<p class="hook">🎙 "Most of a great paint job happens before we open a can."</p><p class="muted"><span class="en">On-screen text</span><span class="es">Texto en pantalla</span>: <b>Before the first coat</b></p>
+<ol><li><span class="en">Top shot of the closed can</span><span class="es">Plano cenital de la lata cerrada</span></li><li><span class="en">Time-lapse of masking and floor protection</span><span class="es">Time-lapse del enmascarado y la protección de pisos</span></li><li><span class="en">Scraping, sanding, caulking</span><span class="es">Raspado, lijado, sellado</span></li><li><span class="en">The can opens at the end; Nain's final inspection</span><span class="es">La lata se abre al final; inspección final de Nain</span></li></ol>
+<p><b><span class="en">Payoff</span><span class="es">Recompensa</span>:</b> <span class="en">Prep is what you're really paying for.</span><span class="es">La preparación es lo que realmente estás pagando.</span></p><p><b>CTA:</b> <span class="hook">"Save this for your next paint job."</span></p></div><div class="script"><span class="tag gold"><span class="en">Leads</span><span class="es">Clientes</span></span><h3>4. <span class="en">One wall, perfect match?</span><span class="es">¿Una pared, igual al resto?</span></h3>
+<p class="hook">🎙 "Can we repaint just one wall and match it? Sometimes, but not always."</p><p class="muted"><span class="en">On-screen text</span><span class="es">Texto en pantalla</span>: <b>One wall / perfect match?</b></p>
+<ol><li><span class="en">A wall with a patch</span><span class="es">Una pared con un parche</span></li><li><span class="en">Sample taken to match</span><span class="es">Se toma la muestra para igualar</span></li><li><span class="en">Color test on the wall</span><span class="es">Prueba de color en la pared</span></li><li><span class="en">Reveal of the finished wall</span><span class="es">Revelado de la pared terminada</span></li></ol>
+<p><b><span class="en">Payoff</span><span class="es">Recompensa</span>:</b> <span class="en">The color can match and still look wrong: sheen and age matter. When a touch-up works and when to go corner to corner.</span><span class="es">El color puede coincidir y aun así verse mal: importan el brillo y la edad. Cuándo basta un retoque y cuándo pintar de esquina a esquina.</span></p><p><b>CTA:</b> <span class="hook">"Comment MATCH if you have a wall like this."</span></p></div><div class="script"><span class="tag gold"><span class="en">Leads</span><span class="es">Clientes</span></span><h3>5. <span class="en">Can this deck be saved?</span><span class="es">¿Se puede salvar este deck?</span></h3>
+<p class="hook">🎙 "Can this deck be saved? This water test tells me."</p><p class="muted"><span class="en">On-screen text</span><span class="es">Texto en pantalla</span>: <b>Save it or replace it?</b></p>
+<ol><li><span class="en">Nain pours water on the boards (point hook)</span><span class="es">Nain vierte agua sobre las tablas (gancho señalar)</span></li><li><span class="en">Probe soft wood</span><span class="es">Probar la madera blanda</span></li><li><span class="en">Pressure wash, then stain</span><span class="es">Lavado a presión y luego tinte</span></li><li><span class="en">Split screen before/after in the first 5 s</span><span class="es">Pantalla dividida antes/después en los primeros 5 s</span></li></ol>
+<p><b><span class="en">Payoff</span><span class="es">Recompensa</span>:</b> <span class="en">Sound wood gets restored; rotten boards are flagged to the owner.</span><span class="es">La madera sana se restaura; las tablas podridas se le indican al dueño.</span></p><p><b>CTA:</b> <span class="hook">"Send us a photo of your deck (keyword DECK)."</span></p></div><div class="script"><span class="tag gold"><span class="en">Leads</span><span class="es">Clientes</span></span><h3>6. <span class="en">Repaint, stay open</span><span class="es">Repintar sin cerrar</span></h3>
+<p class="hook">🎙 "If you run a business, don't close to repaint."</p><p class="muted"><span class="en">On-screen text</span><span class="es">Texto en pantalla</span>: <b>Repaint / stay open</b></p>
+<ol><li><span class="en">A store operating normally</span><span class="es">Un local funcionando</span></li><li><span class="en">The zone-by-zone plan</span><span class="es">El plan por zonas</span></li><li><span class="en">Protected zone and clear aisle</span><span class="es">Zona protegida y pasillo libre</span></li><li><span class="en">Clean reopening</span><span class="es">Reapertura limpia</span></li></ol>
+<p><b><span class="en">Payoff</span><span class="es">Recompensa</span>:</b> <span class="en">A phased plan and hours agreed with the owner. Show only what was really done.</span><span class="es">Un plan por fases y horarios acordados con el dueño. Mostrar solo lo que realmente se hizo.</span></p><p><b>CTA:</b> <span class="hook">"Property managers: DM us PLAN."</span></p></div><div class="script"><span class="tag navy"><span class="en">Reach</span><span class="es">Alcance</span></span><h3>7. <span class="en">Why this house needed scaffolding</span><span class="es">Por qué esta casa necesitó andamio</span></h3>
+<p class="hook">🎙 "This house couldn't be painted from a ladder. Here's why."</p><p class="muted"><span class="en">On-screen text</span><span class="es">Texto en pantalla</span>: <b>Why this house needed scaffolding</b></p>
+<ol><li><span class="en">Time-lapse of the scaffold going up</span><span class="es">Time-lapse del andamio subiendo</span></li><li><span class="en">Height, slope or surface visible in the first 3 s</span><span class="es">Altura, pendiente o superficie visibles en los primeros 3 s</span></li><li><span class="en">Painters working safely with both hands</span><span class="es">Pintores trabajando seguros y con las dos manos</span></li></ol>
+<p><b><span class="en">Payoff</span><span class="es">Recompensa</span>:</b> <span class="en">Stable access means better prep and a better finish up high. On screen: licensed D39 Scaffolding, fully insured.</span><span class="es">Un acceso estable significa mejor preparación y mejor acabado en altura. En pantalla: licencia D39 de andamios y seguro.</span></p><p><b>CTA:</b> <span class="hook">"Follow for the finished reveal."</span></p></div><div class="script"><span class="tag gold"><span class="en">Leads</span><span class="es">Clientes</span></span><h3>8. <span class="en">3 checks before a scaffold quote</span><span class="es">3 cosas antes de cotizar andamio</span></h3>
+<p class="hook">🎙 "Three things I check before quoting scaffolding. The last one surprises people."</p><p class="muted"><span class="en">On-screen text</span><span class="es">Texto en pantalla</span>: <b>Scaffolding quote / 3 checks</b></p>
+<ol><li><span class="en">Nain walks the property</span><span class="es">Nain recorre la propiedad</span></li><li><span class="en">Ground and slope</span><span class="es">Terreno y pendiente</span></li><li><span class="en">Access and obstacles</span><span class="es">Acceso y obstáculos</span></li><li><span class="en">Height and surface (Nain picks the real third point)</span><span class="es">Altura y superficie (Nain elige el tercer punto real)</span></li></ol>
+<p><b><span class="en">Payoff</span><span class="es">Recompensa</span>:</b> <span class="en">Access is planned before the price, not after.</span><span class="es">El acceso se planifica antes del precio, no después.</span></p><p><b>CTA:</b> <span class="hook">"Need a scaffolding quote? Link in bio."</span></p></div><div class="script"><span class="tag gold"><span class="en">Leads</span><span class="es">Clientes</span></span><h3>9. <span class="en">Setup and removal included?</span><span class="es">¿Montaje y retiro incluidos?</span></h3>
+<p class="hook">🎙 "Is setup and removal in your scaffolding quote? Ask before you sign."</p><p class="muted"><span class="en">On-screen text</span><span class="es">Texto en pantalla</span>: <b>Setup + removal included?</b></p>
+<ol><li><span class="en">Point at the line on the quote</span><span class="es">Señalar el renglón en la cotización</span></li><li><span class="en">Setup</span><span class="es">Montaje</span></li><li><span class="en">Takedown</span><span class="es">Desmontaje</span></li><li><span class="en">Clean site</span><span class="es">Sitio limpio</span></li></ol>
+<p><b><span class="en">Payoff</span><span class="es">Recompensa</span>:</b> <span class="en">A low number can leave out putting it up and taking it down. Explain exactly what Picasso's quote includes (confirm with Nain first).</span><span class="es">Un precio bajo puede dejar fuera el montaje y el retiro. Explicar qué incluye exactamente la cotización de Picasso (confirmar antes con Nain).</span></p><p><b>CTA:</b> <span class="hook">"Comment QUOTE for our checklist."</span></p></div><div class="script"><span class="tag navy"><span class="en">Reach</span><span class="es">Alcance</span></span><h3>10. <span class="en">Pressure-wash reveal</span><span class="es">El lavado que revela</span></h3>
+<p class="hook">🎙 "Watch what was hiding under this surface."</p><p class="muted"><span class="en">On-screen text</span><span class="es">Texto en pantalla</span>: <b>One pass. Real color.</b></p>
+<ol><li><span class="en">One slow, satisfying pass</span><span class="es">Una pasada lenta y satisfactoria</span></li><li><span class="en">ASMR sound, no music at the start</span><span class="es">Sonido ASMR, sin música al inicio</span></li><li><span class="en">Why washing comes before paint on the coast</span><span class="es">Por qué en la costa se lava antes de pintar</span></li></ol>
+<p><b><span class="en">Payoff</span><span class="es">Recompensa</span>:</b> <span class="en">Salt and grime keep paint from bonding. Washing is step one.</span><span class="es">La sal y la suciedad impiden que la pintura se adhiera. Lavar es el primer paso.</span></p><p><b>CTA:</b> <span class="hook">"Follow for part 2: the paint."</span></p></div><div class="script"><span class="tag gold"><span class="en">Leads</span><span class="es">Clientes</span></span><h3>11. <span class="en">Goodbye popcorn ceiling</span><span class="es">Adiós al techo de palomitas</span></h3>
+<p class="hook">🎙 "Do you really need to live with a popcorn ceiling?"</p><p class="muted"><span class="en">On-screen text</span><span class="es">Texto en pantalla</span>: <b>Popcorn ceiling / gone</b></p>
+<ol><li><span class="en">Before: textured ceiling</span><span class="es">Antes: techo con textura</span></li><li><span class="en">Room protection</span><span class="es">Protección de la habitación</span></li><li><span class="en">Removal process</span><span class="es">Proceso de retiro</span></li><li><span class="en">Smooth finished ceiling</span><span class="es">Techo liso terminado</span></li></ol>
+<p><b><span class="en">Payoff</span><span class="es">Recompensa</span>:</b> <span class="en">What the process involves and why the room is protected first.</span><span class="es">Qué implica el proceso y por qué primero se protege la habitación.</span></p><p><b>CTA:</b> <span class="hook">"Comment CEILING for a free estimate."</span></p></div><div class="script"><span class="tag navy"><span class="en">Reach</span><span class="es">Alcance</span></span><h3>12. <span class="en">Mural time-lapse</span><span class="es">Mural en time-lapse</span></h3>
+<p class="hook">🎙 "This blank wall is about to become something the whole block notices."</p><p class="muted"><span class="en">On-screen text</span><span class="es">Texto en pantalla</span>: <b>Blank wall → ?</b></p>
+<ol><li><span class="en">Blank wall</span><span class="es">Pared en blanco</span></li><li><span class="en">Sketch and layout</span><span class="es">Boceto y trazado</span></li><li><span class="en">Time-lapse of painting</span><span class="es">Time-lapse de la pintura</span></li><li><span class="en">Final mural reveal</span><span class="es">Revelado del mural</span></li></ol>
+<p><b><span class="en">Payoff</span><span class="es">Recompensa</span>:</b> <span class="en">Custom murals are part of what Picasso does.</span><span class="es">Los murales personalizados son parte de lo que hace Picasso.</span></p><p><b>CTA:</b> <span class="hook">"Have a wall in mind? DM us MURAL."</span></p></div><div class="script"><span class="tag "><span class="en">Followers</span><span class="es">Seguidores</span></span><h3>13. <span class="en">The owner's final inspection</span><span class="es">La inspección final del dueño</span></h3>
+<p class="hook">🎙 "One thing happens before we call any job done."</p><p class="muted"><span class="en">On-screen text</span><span class="es">Texto en pantalla</span>: <b>Before we call it done</b></p>
+<ol><li><span class="en">Nain walks the finished job</span><span class="es">Nain recorre la obra terminada</span></li><li><span class="en">Blue tape on the details</span><span class="es">Cinta azul en los detalles</span></li><li><span class="en">Touch-ups</span><span class="es">Retoques</span></li><li><span class="en">Handshake with the client</span><span class="es">Saludo con el cliente</span></li></ol>
+<p><b><span class="en">Payoff</span><span class="es">Recompensa</span>:</b> <span class="en">Every job is checked by the owner before the crew leaves.</span><span class="es">Cada trabajo lo revisa el dueño antes de que el equipo se vaya.</span></p><p><b>CTA:</b> <span class="hook">"Want a crew that checks? Free estimate in bio."</span></p></div><div class="script"><span class="tag "><span class="en">Followers</span><span class="es">Seguidores</span></span><h3>14. <span class="en">"Just paint over it"</span><span class="es">«Solo píntalo encima»</span></h3>
+<p class="hook">🎙 "The other day a client asked us to just paint over this. We said no."</p><p class="muted"><span class="en">On-screen text</span><span class="es">Texto en pantalla</span>: <b>Why we said no</b></p>
+<ol><li><span class="en">The damaged spot</span><span class="es">El punto dañado</span></li><li><span class="en">What's really underneath</span><span class="es">Lo que realmente hay debajo</span></li><li><span class="en">The repair</span><span class="es">La reparación</span></li><li><span class="en">The finished, lasting result</span><span class="es">El resultado terminado y duradero</span></li></ol>
+<p><b><span class="en">Payoff</span><span class="es">Recompensa</span>:</b> <span class="en">Painting over a problem hides it for a season. Fixing it is what lasts. (Use only a real case.)</span><span class="es">Pintar encima de un problema lo esconde una temporada; corregirlo es lo que dura. (Solo con un caso real.)</span></p><p><b>CTA:</b> <span class="hook">"Not sure what's under yours? Send a photo."</span></p></div><div class="script"><span class="tag navy"><span class="en">Reach</span><span class="es">Alcance</span></span><h3>15. <span class="en">Two walls, two paints</span><span class="es">Dos paredes, dos pinturas</span></h3>
+<p class="hook">🎙 "Two walls, two paints. Can you tell which one we use?"</p><p class="muted"><span class="en">On-screen text</span><span class="es">Texto en pantalla</span>: <b>Which one is ours?</b></p>
+<ol><li><span class="en">Two sample boards side by side</span><span class="es">Dos tablas de muestra lado a lado</span></li><li><span class="en">Coverage after one coat</span><span class="es">Cobertura tras una mano</span></li><li><span class="en">Close-up of the finish</span><span class="es">Primer plano del acabado</span></li><li><span class="en">Reveal: premium paint (Benjamin Moore, Kelly-Moore or Sherwin-Williams)</span><span class="es">Revelado: pintura premium (Benjamin Moore, Kelly-Moore o Sherwin-Williams)</span></li></ol>
+<p><b><span class="en">Payoff</span><span class="es">Recompensa</span>:</b> <span class="en">Premium paint covers and lasts better; prep still decides the result.</span><span class="es">La pintura premium cubre y dura más; la preparación sigue decidiendo el resultado.</span></p><p><b>CTA:</b> <span class="hook">"Comment PAINT and tell us which one you picked."</span></p></div></div>
+</div></section>
+
+<section class="s alt" id="score"><div class="wrap">
+ <div class="eyebrow"><span class="en">6 · Viral Calculator</span><span class="es">6 · Calculadora de Viralidad</span></div>
+ <h2><span class="en">Score before you film.</span><span class="es">Puntuar antes de grabar.</span></h2>
+ <p class="lead"><span class="en">10 factors scored 0–2 (max 20): real tension, familiarity, novelty, visuals, curiosity, usefulness, shareability, identity, replicability, mutability. Apply the fix, then film.</span><span class="es">10 factores de 0 a 2 (máximo 20): tensión real, familiaridad, novedad, visualidad, curiosidad, utilidad, shareability, identidad, replicabilidad y mutabilidad. Aplicar el arreglo y luego grabar.</span></p>
+ <div class="tablewrap"><table>
+  <tr><th><span class="en">Idea</span><span class="es">Idea</span></th><th class="num">/20</th><th><span class="en">Fix before filming</span><span class="es">Arreglo antes de grabar</span></th></tr>
+  <tr><td><span class="en">(e) Carousel "5 signs your exterior paint is failing"</span><span class="es">(e) Carrusel «5 señales de que tu pintura exterior falla»</span></td><td class="num score">16</td><td class="muted"><span class="en">Use real Picasso job photos, add a twist ("the last one is the worst"), CTA comment PAINT; also film a Reel version pointing at each defect.</span><span class="es">Usar fotos reales de obras de Picasso, añadir un giro («la última es la peor»), CTA comentar PAINT; grabar también una versión en Reel señalando cada defecto.</span></td></tr><tr><td><span class="en">(d) "Why did this house need scaffolding?"</span><span class="es">(d) «¿Por qué esta casa necesitó andamio?»</span></td><td class="num score">15</td><td class="muted"><span class="en">Show part of the answer in the first 3 s (visible height or slope), POV climbing, close with safety and "fully insured", turn it into a series.</span><span class="es">Mostrar parte de la respuesta en los primeros 3 s (altura o pendiente visibles), POV subiendo, cerrar con seguridad y «fully insured», convertirlo en serie.</span></td></tr><tr><td><span class="en">(a) Before/after of the gray ranch home</span><span class="es">(a) Antes/después de la casa gris</span></td><td class="num score">13</td><td class="muted"><span class="en">Hide the result until the end, open with "which color would you pick?" or a real fact about the house, add a takeaway about what paint protects.</span><span class="es">Ocultar el resultado hasta el final, abrir con «¿qué color elegirías?» o un dato real de la casa, y añadir una enseñanza sobre qué protege la pintura.</span></td></tr><tr><td><span class="en">(c) Pressure-washing + scraping montage</span><span class="es">(c) Montaje de lavado a presión y raspado</span></td><td class="num score">10</td><td class="muted"><span class="en">Add tension and a takeaway ("this is why paint peels in a few years") with voice-over and on-screen text from frame 1.</span><span class="es">Añadir tensión y una enseñanza («por esto la pintura se pela en pocos años») con voz en off y texto en pantalla desde el primer frame.</span></td></tr><tr><td><span class="en">(f) Story: "Which color should this door be?"</span><span class="es">(f) Historia: «¿De qué color pintamos esta puerta?»</span></td><td class="num score">10</td><td class="muted"><span class="en">Chain it: reveal the result in the next Story with before/after, proof and CTA (5+3 method).</span><span class="es">Encadenarla: revelar el resultado en la siguiente historia con antes/después, prueba y CTA (método 5+3).</span></td></tr><tr><td><span class="en">(b) "What's included in an exterior estimate?" talking head</span><span class="es">(b) «¿Qué incluye un estimado exterior?» a cámara</span></td><td class="num score">8</td><td class="muted"><span class="en">Show, don't tell: Nain walks the house taping what he checks ("3 things a cheap quote leaves out"), keyword CTA.</span><span class="es">Mostrar en vez de contar: Nain recorre la casa marcando con cinta lo que revisa («3 cosas que una cotización barata no incluye»), CTA con palabra clave.</span></td></tr>
+ </table></div>
+</div></section>
+
+<section class="s" id="seasons"><div class="wrap">
+ <div class="eyebrow"><span class="en">7 · Seasons &amp; campaigns</span><span class="es">7 · Temporadas y campañas</span></div>
+ <h2><span class="en">When to talk about what.</span><span class="es">De qué hablar y cuándo.</span></h2>
+ <div class="grid3" style="margin-bottom:26px">
+  <div class="card"><small><span class="en">Nov – Feb</span><span class="es">Nov – Feb</span></small><h3><span class="en">Interiors &amp; planning</span><span class="es">Interiores y planificación</span></h3><p class="muted"><span class="en">Rainy season: one wall, one room, wallpaper and acoustic ceilings, colors of the year, exterior quotes for spring.</span><span class="es">Temporada de lluvias: una pared, una habitación, papel tapiz y techos acústicos, colores del año, cotizaciones exteriores para primavera.</span></p></div>
+  <div class="card"><small><span class="en">Feb – May</span><span class="es">Feb – May</span></small><h3><span class="en">Exterior booking</span><span class="es">Captación exterior</span></h3><p class="muted"><span class="en">Searches for exterior painters peak. Estimate walkthroughs, access reviews, peeling diagnosis, scaffolding quote weeks.</span><span class="es">Suben las búsquedas de pintores exteriores. Cómo leer un estimado, revisiones de acceso, diagnóstico de pintura pelada, semanas de cotización de andamios.</span></p></div>
+  <div class="card"><small><span class="en">May – Oct</span><span class="es">May – Oct</span></small><h3><span class="en">Exteriors, wood &amp; access</span><span class="es">Exteriores, madera y andamios</span></h3><p class="muted"><span class="en">Dry window for exterior work: transformations, decks and fences, washing, scaffolding on site. September is the second chance before the rains.</span><span class="es">Ventana seca para exteriores: transformaciones, decks y cercas, lavado, andamios en obra. Septiembre es la segunda oportunidad antes de las lluvias.</span></p></div>
+ </div>
+ <div class="filters"><label><span class="en">Month</span><span class="es">Mes</span> <select id="calMonth"></select></label><label><input type="checkbox" id="calOffers"> <span class="en">Only campaigns with an offer</span><span class="es">Solo campañas con oferta</span></label></div>
+ <div class="tablewrap"><table class="cal"><thead><tr><th><span class="en">When</span><span class="es">Cuándo</span></th><th><span class="en">Campaign</span><span class="es">Campaña</span></th><th>Reel</th><th><span class="en">Carousel</span><span class="es">Carrusel</span></th><th><span class="en">Image</span><span class="es">Imagen</span></th></tr></thead><tbody id="calBody"></tbody></table></div>
+ <p class="muted"><span class="en">Offers are proposals: activate them only when the window opens and after Picasso approves terms, margin and capacity. Publish weeks before the window are educational.</span><span class="es">Las ofertas son propuestas: se activan solo al abrir la ventana y después de que Picasso apruebe términos, margen y capacidad. Las semanas de publicación previas son educativas.</span></p>
+</div></section>
+
+<section class="s alt" id="calendar"><div class="wrap">
+ <div class="eyebrow"><span class="en">8 · Week-by-week calendar</span><span class="es">8 · Calendario semana a semana</span></div>
+ <h2><span class="en">Every week, all 5 pieces.</span><span class="es">Cada semana, las 5 piezas.</span></h2>
+ <p class="lead"><span class="en">The first week of each campaign uses its own pieces; the following weeks switch to a related content series so nothing repeats, while the Stories keep the campaign's call to action. Weeks without a campaign rotate through the 8 series. On holidays, the Saturday image is the greeting. When a series comes back, it repeats the format, not the footage: film a different real job each time.</span><span class="es">La primera semana de cada campaña usa sus propias piezas; las siguientes pasan a una serie relacionada para no repetir nada, mientras las historias mantienen la llamada a la acción de la campaña. Las semanas sin campaña rotan entre las 8 series. En los feriados, la imagen del sábado es el saludo de la fecha. Cuando una serie vuelve, se repite el formato, no el material: cada vez se graba una obra real distinta.</span></p>
+ <div class="filters"><label><span class="en">Month</span><span class="es">Mes</span> <select id="wkMonth"></select></label></div>
+ <div class="tablewrap"><table class="wk"><thead><tr><th><span class="en">Week</span><span class="es">Semana</span></th><th><span class="en">Theme</span><span class="es">Tema</span></th><th><span class="en">Mon · Story 1</span><span class="es">Lun · Historia 1</span></th><th><span class="en">Tue · Reel</span><span class="es">Mar · Reel</span></th><th><span class="en">Thu · Carousel</span><span class="es">Jue · Carrusel</span></th><th><span class="en">Fri · Story 2</span><span class="es">Vie · Historia 2</span></th><th><span class="en">Sat · Image</span><span class="es">Sáb · Imagen</span></th></tr></thead><tbody id="wkBody"></tbody></table></div>
+</div></section>
+
+<section class="s" id="kpis"><div class="wrap">
+ <div class="eyebrow"><span class="en">9 · Measuring what matters</span><span class="es">9 · Medir lo que importa</span></div>
+ <h2><span class="en">Estimates, not likes.</span><span class="es">Estimados, no likes.</span></h2>
+ <div class="grid2">
+  <div class="card"><h3><span class="en">The KPIs</span><span class="es">Los KPIs</span></h3><ul class="clean">
+   <li><span class="en"><b>Views in the last 30 days</b> (reach of new local people).</span><span class="es"><b>Vistas de los últimos 30 días</b> (alcance de gente local nueva).</span></li>
+   <li><span class="en"><b>DM conversations</b> started by keywords (ESTIMATE, PHOTO, DECK, ACCESS).</span><span class="es"><b>Conversaciones por DM</b> iniciadas con palabras clave (ESTIMATE, PHOTO, DECK, ACCESS).</span></li>
+   <li><span class="en"><b>Qualified estimate requests</b> and <b>jobs won</b>, tracked by source.</span><span class="es"><b>Solicitudes de estimado cualificadas</b> y <b>trabajos cerrados</b>, registrados por origen.</span></li>
+   <li><span class="en"><b>Story view rate</b>: 5–15% of followers is healthy; below 5% means Stories need a better opener.</span><span class="es"><b>Ratio de vistas de historias</b>: 5–15 % de los seguidores es sano; por debajo del 5 % hay que mejorar la apertura.</span></li>
+   <li><span class="en"><b>Saves and shares</b> on carousels; <b>outliers</b> (a Reel with ~10× the usual views) to repeat the format.</span><span class="es"><b>Guardados y compartidos</b> en carruseles; <b>outliers</b> (un Reel con ~10× las vistas habituales) para repetir el formato.</span></li>
+  </ul><p class="muted"><span class="en">Follower count and likes are not decision metrics.</span><span class="es">El número de seguidores y los likes no son métricas de decisión.</span></p></div>
+  <div class="card"><h3><span class="en">The routine</span><span class="es">La rutina</span></h3><ul class="clean">
+   <li><span class="en"><b>Monthly:</b> one batch filming day on active jobs (plus quick clips during the week).</span><span class="es"><b>Mensual:</b> un día de grabación por lotes en obras activas (más clips rápidos durante la semana).</span></li>
+   <li><span class="en"><b>Weekly (30 min):</b> mark every Reel and Story green / yellow / red; repeat what works, drop what doesn't.</span><span class="es"><b>Semanal (30 min):</b> marcar cada Reel e historia en verde / amarillo / rojo; repetir lo que funciona y dejar lo que no.</span></li>
+   <li><span class="en"><b>Weekly research:</b> look for outlier formats in painting, home improvement, cleaning and pressure-washing accounts, and decide RECORD / TEST / DROP.</span><span class="es"><b>Investigación semanal:</b> buscar formatos outlier en cuentas de pintura, reformas, limpieza y lavado a presión, y decidir GRABAR / PROBAR / DESCARTAR.</span></li>
+   <li><span class="en"><b>Quarterly:</b> review which series bring estimates and adjust the 25/25/50 mix.</span><span class="es"><b>Trimestral:</b> revisar qué series traen estimados y ajustar la mezcla 25/25/50.</span></li>
+   <li><span class="en">Changing style usually costs 3–5 weaker videos before results return.</span><span class="es">Cambiar de estilo suele costar 3–5 vídeos más flojos antes de recuperar resultados.</span></li>
+  </ul></div>
+ </div>
+ <h3 style="margin-top:40px"><span class="en">Beyond Instagram</span><span class="es">Más allá de Instagram</span></h3>
+ <p class="muted"><span class="en">Reuse every piece on Facebook, TikTok and YouTube Shorts, and post the best photos to Google Business Profile, Nextdoor and Yelp, where people search with intent to hire. Ask for genuine reviews after each job (never in exchange for incentives).</span><span class="es">Reutilizar cada pieza en Facebook, TikTok y YouTube Shorts, y subir las mejores fotos a Google Business Profile, Nextdoor y Yelp, donde la gente busca para contratar. Pedir reseñas genuinas después de cada trabajo (nunca a cambio de incentivos).</span></p>
+</div></section>
+
+<section class="s alt" id="needs"><div class="wrap">
+ <div class="eyebrow"><span class="en">10 · What we need from Picasso</span><span class="es">10 · Lo que necesitamos de Picasso</span></div>
+ <h2><span class="en">To start publishing.</span><span class="es">Para empezar a publicar.</span></h2>
+ <div class="grid2">
+  <div class="card"><h3><span class="en">Material &amp; approvals</span><span class="es">Material y aprobaciones</span></h3><ul class="clean">
+   <li><span class="en">Access to active jobs for monthly filming (before, during and after from the same angle).</span><span class="es">Acceso a obras activas para grabar cada mes (antes, durante y después desde el mismo ángulo).</span></li>
+   <li><span class="en">Owner permission for any recognizable home or business.</span><span class="es">Permiso del propietario para cualquier casa o negocio reconocible.</span></li>
+   <li><span class="en">More photos of finished work (today we have 3 finished projects).</span><span class="es">Más fotos de trabajos terminados (hoy hay 3 proyectos terminados).</span></li>
+   <li><span class="en">Nain on camera for the estimate, inspection and scaffolding series.</span><span class="es">Nain a cámara para las series de estimado, inspección y andamios.</span></li>
+  </ul></div>
+  <div class="card"><h3><span class="en">Information to confirm</span><span class="es">Información por confirmar</span></h3><ul class="clean">
+   <li><span class="en">Terms of the four-year guarantee.</span><span class="es">Términos de la garantía de cuatro años.</span></li>
+   <li><span class="en">Current proof of insurance (2026).</span><span class="es">Certificado de seguro vigente (2026).</span></li>
+   <li><span class="en">Scaffolding services: only for own painting jobs, or also setup/rental for others? What a quote includes.</span><span class="es">Servicio de andamios: ¿solo para sus obras de pintura o también montaje/alquiler para otros? Qué incluye una cotización.</span></li>
+   <li><span class="en">Which offers, dates and capacity are approved for each campaign.</span><span class="es">Qué ofertas, fechas y capacidad se aprueban para cada campaña.</span></li>
+   <li><span class="en">Social accounts and access (Instagram, Facebook, TikTok, Google Business Profile).</span><span class="es">Cuentas de redes y accesos (Instagram, Facebook, TikTok, Google Business Profile).</span></li>
+  </ul></div>
+ </div>
+</div></section>
+
+<footer><div class="wrap">
+ <p><span class="en">Prepared for Picasso Painting &amp; Scaffolding · CA CSLB #1130045 (C33 Painting, D39 Scaffolding) · San Francisco Bay Area.</span><span class="es">Preparado para Picasso Painting &amp; Scaffolding · CA CSLB #1130045 (C33 pintura, D39 andamios) · San Francisco Bay Area.</span></p>
+ <p><span class="en">Sources: Picasso Painting commercial planner 2026–2027; content strategy and offer documents; internal methodologies (Content Intelligence DAILY V2, Investigación 2.0, Novelty Content, Ganchos, Kallaway, Maestro, Viral Calculator); 2027 colors of the year: </span><span class="es">Fuentes: planificador comercial 2026–2027 de Picasso Painting; documentos de estrategia de contenido y oferta; metodologías internas (Content Intelligence DAILY V2, Investigación 2.0, Novelty Content, Ganchos, Kallaway, Maestro, Calculadora de Viralidad); colores del año 2027: </span><a href="https://www.benjaminmoore.com/en-us/press/benjamin-moore-announces-color-of-the-year-2027" target="_blank" rel="noopener">Benjamin Moore</a>, <a href="https://www.sherwin-williams.com/en-us/color/color-of-the-year/2027" target="_blank" rel="noopener">Sherwin-Williams</a>; <span class="en">best painting season in the Bay Area: </span><span class="es">mejor temporada para pintar en la Bay Area: </span><a href="https://www.kunstpainting.com/blog-posts/when-is-the-best-time-to-paint-your-bay-area-home" target="_blank" rel="noopener">Kunst Painting</a>.</p>
+</div></footer>
+
+<script>
+// Datos del calendario: campañas del planificador (EN/ES) y rotación semanal de series.
+// kind: own = campaña propia, season = temporada, date = fecha EE. UU., local = evento local
+const CAMPAIGNS = [
+ {id:"thanks26",kind:"date",title:"Thanksgiving",pub:"2026-11-23",start:"2026-11-26",end:"2026-11-26",
+  why:{en:"Thank clients and the community with an authentic crew photo.",es:"Agradecer a clientes y comunidad con una foto auténtica del equipo."},
+  img:{en:"Thank you, Bay Area.",es:"Gracias, Bay Area."},
+  car:{en:"Home projects we're grateful we got to work on → details → thank you.",es:"Proyectos que agradecemos haber hecho → detalles → agradecimiento."},
+  reel:{en:"A few moments our crew is thankful for (open with an approved job photo).",es:"Momentos por los que el equipo está agradecido (abrir con foto de obra autorizada)."}},
+ {id:"bf26",kind:"date",prio:1,title:"Black Friday · Shop Small · Cyber Monday",pub:"2026-11-23",start:"2026-11-27",end:"2026-11-30",
+  why:{en:"Express edition: present the free estimates already published. A new promo needs approved margin and availability first.",es:"Edición exprés: presentar las cotizaciones gratuitas ya publicadas. Una promoción nueva necesita margen y disponibilidad aprobados."},
+  img:{en:"Planning an interior repaint? Request a free estimate.",es:"¿Planeas repintar un interior? Pide un estimado gratis."},
+  car:{en:"One wall or a whole room? → scope → photos that help us quote.",es:"¿Una pared o toda la habitación? → alcance → fotos para cotizar."},
+  reel:{en:"Here's what helps us quote your repaint (one wide photo + one detail).",es:"Esto nos ayuda a cotizar tu repintado (una foto general y un detalle)."}},
+ {id:"winter26",kind:"own",offer:1,title:"Winter Interior Refresh",pub:"2026-11-30",start:"2026-12-07",end:"2026-12-17",
+  why:{en:"Use the winter weeks and make it easy to pick finishes before guests arrive or the new year starts.",es:"Aprovechar el invierno y facilitar elegir acabados antes de recibir visitas o empezar el año."},
+  offer:{en:"Short color consultation included with an eligible interior project booked for December or January dates.",es:"Consulta breve de color incluida con un proyecto interior elegible en fechas de diciembre o enero."},
+  img:{en:"Ready to repaint before January?",es:"¿Listo para repintar antes de enero?"},
+  car:{en:"One-room refresh → colors → prep → dates.",es:"Una habitación renovada → colores → preparación → fechas."},
+  reel:{en:"What happens to your furniture when we paint? (show furniture and floor protection)",es:"¿Qué pasa con tus muebles cuando pintamos? (mostrar protección de muebles y pisos)"}},
+ {id:"xmas26",kind:"date",title:"Christmas Day",pub:"2026-12-14",start:"2026-12-25",end:"2026-12-25",
+  why:{en:"Christmas greeting and holiday hours if they change.",es:"Saludo de Navidad y aviso de horario si cambia."},
+  img:{en:"Merry Christmas from Picasso Painting.",es:"Feliz Navidad de parte de Picasso Painting."},
+  car:{en:"Our holiday hours → real schedule → how to request an estimate.",es:"Horario festivo → horario real → cómo pedir estimado."},
+  reel:{en:"Short crew greeting + one approved project shot.",es:"Saludo breve del equipo + una toma de proyecto autorizado."}},
+ {id:"ny27",kind:"date",title:"New Year's Day",pub:"2026-12-21",start:"2027-01-01",end:"2027-01-01",
+  why:{en:"Capture one-room projects and the home to-do list for the year.",es:"Captar proyectos de una habitación y la lista de pendientes de la casa."},
+  img:{en:"Which room would you repaint first?",es:"¿Qué habitación repintarías primero?"},
+  car:{en:"Your first painting project of 2027 → room → scope → next step.",es:"Tu primer proyecto de pintura de 2027 → habitación → alcance → siguiente paso."},
+  reel:{en:"Can you repaint just one wall? (real color-match case)",es:"¿Se puede repintar solo una pared? (caso real de igualar color)"}},
+ {id:"mlk27",kind:"date",title:"Martin Luther King Jr. Day",pub:"2027-01-11",start:"2027-01-18",end:"2027-01-18",
+  why:{en:"Community recognition. Mention participation only if the team confirms a real action.",es:"Reconocimiento comunitario. Mencionar participación solo si el equipo confirma una acción real."},
+  img:{en:"Honoring Dr. Martin Luther King Jr.",es:"Honrando al Dr. Martin Luther King Jr."},
+  car:{en:"A community service story, only with approved material.",es:"Una historia de servicio comunitario, solo con material autorizado."},
+  reel:{en:"Short community message if the team takes part in an activity.",es:"Mensaje breve si el equipo participa en una actividad."}},
+ {id:"oneroom27",kind:"own",offer:1,title:"One-Room Refresh",pub:"2027-01-18",start:"2027-01-25",end:"2027-02-05",
+  why:{en:"One patched or badly matched wall makes the whole room look uneven.",es:"Una pared reparada o mal igualada hace que la habitación se vea dispareja."},
+  offer:{en:"Fixed credit for an eligible minimum-scope interior project that includes spot drywall repair (new quotes only).",es:"Crédito fijo para un proyecto interior de alcance mínimo que incluya resane localizado (solo cotizaciones nuevas)."},
+  img:{en:"One room. One clear scope.",es:"Una habitación. Un alcance claro."},
+  car:{en:"Wall damage → protection → patch → paint → what the quote covers.",es:"Daño en la pared → protección → resane → pintura → qué cubre la cotización."},
+  reel:{en:"Will the patch still show after painting? (open with the wall in raking light)",es:"¿Se notará el parche después de pintar? (abrir con la pared a contraluz)"}},
+ {id:"pres27",kind:"date",offer:1,title:"Presidents' Day Weekend",pub:"2027-02-01",start:"2027-02-12",end:"2027-02-15",
+  why:{en:"Give a reason to move forward to the person torn between two finishes.",es:"Dar un motivo para avanzar a quien duda entre dos acabados."},
+  offer:{en:"Color consultation included for new eligible interior bookings in approved February slots.",es:"Consulta de color incluida en nuevas reservas interiores elegibles de febrero."},
+  img:{en:"Pick a paint color with more confidence.",es:"Elige color de pintura con más seguridad."},
+  car:{en:"Color in daylight → under a lamp → next to the trim → consultation.",es:"Color con luz de día → con lámpara → junto al trim → consulta."},
+  reel:{en:"Why does this white look different at night? (same sample, two lights)",es:"¿Por qué este blanco se ve distinto de noche? (misma muestra, dos luces)"}},
+ {id:"spring27",kind:"season",prio:1,offer:1,title:"Spring Exterior Booking",pub:"2027-02-15",start:"2027-02-22",end:"2027-03-12",
+  why:{en:"Homeowners want price and availability before exterior season starts.",es:"El cliente quiere precio y disponibilidad antes de que empiece la obra exterior."},
+  offer:{en:"Early booking of tentative April–June windows with an access review included in the eligible quote.",es:"Reserva anticipada de ventanas abril–junio con revisión de acceso incluida en la cotización elegible."},
+  img:{en:"Planning a spring exterior repaint?",es:"¿Planeas repintar el exterior en primavera?"},
+  car:{en:"What changes an exterior quote? → height → prep → access → timing.",es:"¿Qué cambia una cotización exterior? → altura → preparación → acceso → tiempos."},
+  reel:{en:"What's included in this exterior painting estimate? (anonymized estimate)",es:"¿Qué incluye este estimado de pintura exterior? (presupuesto anonimizado)"}},
+ {id:"scaff27",kind:"own",prio:1,offer:1,title:"Bay Area Scaffolding Quote Week",pub:"2027-03-15",start:"2027-03-22",end:"2027-04-02",
+  why:{en:"Owners wonder how the façade will be reached; contractors need clear scope, dates and responsibilities.",es:"El propietario se pregunta cómo se alcanza la fachada; el contratista necesita alcance, fechas y responsabilidades."},
+  offer:{en:"Scope visit for eligible complex-access projects, stating which setup, removal or equipment is included.",es:"Visita de alcance para proyectos de acceso complejo, detallando montaje, retiro o equipo incluidos."},
+  img:{en:"What does your access quote cover?",es:"¿Qué cubre tu cotización de acceso?"},
+  car:{en:"Site photo → height → ground → access → items to confirm.",es:"Foto del sitio → altura → terreno → acceso → puntos a confirmar."},
+  reel:{en:"Why did this façade need scaffolding? (wide shot, then the hard-to-reach spot)",es:"¿Por qué esta fachada necesitó andamio? (plano general y el punto difícil)"}},
+ {id:"easter27",kind:"date",title:"Easter Sunday",pub:"2027-03-15",start:"2027-03-28",end:"2027-03-28",
+  why:{en:"Greeting if it fits the brand tone; editorial alternative: color in natural light.",es:"Saludo si encaja con la marca; alternativa: el color con luz natural."},
+  img:{en:"Spring light changes how paint looks.",es:"La luz de primavera cambia cómo se ve la pintura."},
+  car:{en:"Same sample → natural light → shade → real finish.",es:"Misma muestra → luz natural → sombra → acabado real."},
+  reel:{en:"The same color at two times of day in the same room.",es:"El mismo color en dos momentos del día en la misma habitación."}},
+ {id:"surface27",kind:"own",offer:1,title:"Spring Exterior Surface Check",pub:"2027-04-05",start:"2027-04-12",end:"2027-04-23",
+  why:{en:"The owner wants to know if paint is enough or if the damage needs a different job.",es:"El dueño quiere saber si basta con pintar o si el deterioro exige otro trabajo."},
+  offer:{en:"Fixed credit on an eligible exterior project combining prep and minor trim/wood repairs, with written limits.",es:"Crédito fijo en un exterior elegible que combine preparación y reparaciones menores de madera, con límites por escrito."},
+  img:{en:"Peeling paint? Find out what's underneath.",es:"¿Pintura que se pela? Descubre qué hay debajo."},
+  car:{en:"Peeling → possible moisture → prep → decision → estimate.",es:"Se pela → posible humedad → preparación → decisión → estimado."},
+  reel:{en:"Why did the paint peel right here? (open on the detail, explain what was found)",es:"¿Por qué se peló justo aquí? (abrir con el detalle y explicar el hallazgo)"}},
+ {id:"earth27",kind:"date",title:"Earth Day",pub:"2027-04-12",start:"2027-04-22",end:"2027-04-22",
+  why:{en:"Real case of wood preserved and repaired; any environmental claim must come from the product's documentation.",es:"Caso real de madera conservada y reparada; toda afirmación ambiental debe venir de la ficha del producto."},
+  img:{en:"Can this wood be restored?",es:"¿Se puede restaurar esta madera?"},
+  car:{en:"Restore or replace? → damage found → scope → result.",es:"¿Restaurar o cambiar? → daño encontrado → alcance → resultado."},
+  reel:{en:"What we kept on this job (what was restored vs replaced).",es:"Lo que conservamos en esta obra (qué se restauró y qué se cambió)."}},
+ {id:"sbw27",kind:"date",prio:1,offer:1,title:"National Small Business Week",pub:"2027-04-19",start:"2027-05-02",end:"2027-05-08",
+  why:{en:"Businesses fear closing, bothering customers or losing time coordinating a crew.",es:"El negocio teme cerrar, incomodar clientes o perder tiempo coordinando a la cuadrilla."},
+  offer:{en:"Commercial quote with a preliminary zone-by-zone work plan for eligible businesses.",es:"Cotización comercial con plan preliminar por zonas para comercios elegibles."},
+  img:{en:"Refresh your storefront around business hours.",es:"Renueva tu local respetando tu horario."},
+  car:{en:"Occupied business repaint → access → phases → dates → quote.",es:"Repintar un negocio abierto → accesos → fases → fechas → cotización."},
+  reel:{en:"How do you repaint an occupied storefront? (sequence of a verified job)",es:"¿Cómo se repinta un local abierto? (secuencia de un caso comprobado)"}},
+ {id:"mom27",kind:"date",title:"Mother's Day",pub:"2027-04-26",start:"2027-05-09",end:"2027-05-09",
+  why:{en:"Visual inspiration for an everyday room, without tying a purchase to the tribute.",es:"Inspiración para un cuarto de uso diario, sin ligar una compra al homenaje."},
+  img:{en:"A room worth making time for.",es:"Una habitación que merece tu tiempo."},
+  car:{en:"One room, three color decisions → real photos and light.",es:"Una habitación, tres decisiones de color → fotos reales y luz."},
+  reel:{en:"What changed the feel of this room? (same angle before/after)",es:"¿Qué cambió la sensación de esta habitación? (mismo ángulo antes/después)"}},
+ {id:"wash27",kind:"own",offer:1,title:"Exterior Wash & Paint Assessment",pub:"2027-05-10",start:"2027-05-17",end:"2027-05-23",
+  why:{en:"People want to know whether washing fixes what they see or a repaint is needed.",es:"La persona quiere saber si lavar resuelve lo que ve o si hace falta repintar."},
+  offer:{en:"Pressure washing bundled when eligible exterior prep and paint are contracted (surfaces and limits in writing).",es:"Lavado incluido en paquete al contratar preparación y pintura exterior elegible (superficies y límites por escrito)."},
+  img:{en:"Wash it or repaint it?",es:"¿Lavar o repintar?"},
+  car:{en:"Surface dirt → visible damage → what the visit covers → quote.",es:"Suciedad superficial → daño visible → qué incluye la visita → cotización."},
+  reel:{en:"The same spot before and after washing — what washing could and couldn't fix.",es:"El mismo punto antes y después del lavado: qué resolvió y qué no."}},
+ {id:"memorial27",kind:"date",title:"Memorial Day",pub:"2027-05-24",start:"2027-05-31",end:"2027-05-31",
+  why:{en:"Commemorative post, kept separate from quote calls and promotions.",es:"Publicación conmemorativa, separada de llamadas a cotizar y promociones."},
+  img:{en:"Remembering those who gave their lives in service.",es:"En memoria de quienes dieron su vida en servicio."},
+  car:{en:"Optional, sober recognition.",es:"Reconocimiento sobrio opcional."},
+  reel:{en:"No Reel required.",es:"Sin Reel obligatorio."}},
+ {id:"home27",kind:"date",prio:1,offer:1,title:"National Homeownership Month",pub:"2027-05-24",start:"2027-06-02",end:"2027-06-13",
+  why:{en:"Owners want to protect their investment and decide which surfaces to tackle first.",es:"El propietario quiere proteger su inversión y decidir qué superficies atender primero."},
+  offer:{en:"Exterior color consultation included with an eligible full-façade project booked in the window.",es:"Consulta de color exterior incluida en un proyecto de fachada completa reservado en la ventana."},
+  img:{en:"Where should you start on your home exterior?",es:"¿Por dónde empezar con el exterior de tu casa?"},
+  car:{en:"Trim, siding and access → visible signs → priorities → visit.",es:"Molduras, siding y acceso → señales visibles → prioridades → visita."},
+  reel:{en:"What would we repaint first on this house? (real inspection)",es:"¿Qué repintaríamos primero en esta casa? (inspección real)"}},
+ {id:"june27",kind:"date",title:"Juneteenth",pub:"2027-06-07",start:"2027-06-19",end:"2027-06-19",
+  why:{en:"Recognition of the date; share a community initiative only if verified.",es:"Reconocimiento de la fecha; compartir iniciativa comunitaria solo si está verificada."},
+  img:{en:"Recognizing Juneteenth.",es:"Reconociendo Juneteenth."},
+  car:{en:"Context and a verified local resource if appropriate.",es:"Contexto y recurso local verificado si corresponde."},
+  reel:{en:"Short post only with approved community material.",es:"Publicación breve solo con material comunitario autorizado."}},
+ {id:"dad27",kind:"date",title:"Father's Day",pub:"2027-06-07",start:"2027-06-20",end:"2027-06-20",
+  why:{en:"Backyard and deck inspiration; present the summer offer only when its window opens.",es:"Inspiración de patio y deck; la oferta de verano solo cuando abra su ventana."},
+  img:{en:"A deck you'll want to use again.",es:"Un deck que vas a querer volver a usar."},
+  car:{en:"Deck refresh ideas → before/after → what the wood needs.",es:"Ideas para el deck → antes/después → qué necesita la madera."},
+  reel:{en:"Could this deck be saved? (problem and real result)",es:"¿Se podía salvar este deck? (problema y resultado real)"}},
+ {id:"july27",kind:"date",title:"Independence Day",pub:"2027-06-21",start:"2027-07-04",end:"2027-07-04",
+  why:{en:"Community greeting and hours; show an approved porch or entry.",es:"Saludo y horarios; mostrar un porche o entrada autorizados."},
+  img:{en:"Happy Fourth of July, Bay Area.",es:"Feliz 4 de julio, Bay Area."},
+  car:{en:"Entry and porch → detail → greeting.",es:"Entrada y porche → detalle → saludo."},
+  reel:{en:"Quick front door or porch case with a holiday close.",es:"Caso rápido de puerta o porche con cierre festivo."}},
+ {id:"deck27",kind:"own",offer:1,title:"Deck & Fence Refresh",pub:"2027-07-05",start:"2027-07-12",end:"2027-07-25",
+  why:{en:"Owners want their yard back and to know what to stain or repair.",es:"El dueño quiere recuperar el patio y saber qué teñir o reparar."},
+  offer:{en:"Bundle price for deck and fence together, subject to footage, prep and wood condition.",es:"Precio de paquete para deck y cerca, según metraje, preparación y estado de la madera."},
+  img:{en:"Deck and fence looking worn?",es:"¿Deck y cerca desgastados?"},
+  car:{en:"Stain or replace? → wear → sound wood → finish → photos to quote.",es:"¿Teñir o cambiar? → desgaste → madera sana → acabado → fotos para cotizar."},
+  reel:{en:"Can this deck be saved before summer ends? (before/after + real repair)",es:"¿Se puede salvar este deck antes de que acabe el verano? (antes/después + reparación real)"}},
+ {id:"access27",kind:"own",offer:1,title:"Contractor Access Weeks",pub:"2027-08-02",start:"2027-08-09",end:"2027-08-20",
+  why:{en:"Contractors want coordination with other trades, clear timelines and who handles removal.",es:"El contratista busca coordinación con otros oficios, plazos claros y quién retira."},
+  offer:{en:"Access visit and quote for eligible contractor and property-manager projects.",es:"Visita y presupuesto de acceso para proyectos de contratistas y administradores."},
+  img:{en:"Need access for your next Bay Area project?",es:"¿Necesitas acceso para tu próxima obra en la Bay Area?"},
+  car:{en:"Send these site details → elevations → obstacles → dates → scope.",es:"Envía estos datos → elevaciones → obstáculos → fechas → alcance."},
+  reel:{en:"The site detail that changed this scaffold quote.",es:"El detalle de la obra que cambió esta cotización de andamio."}},
+ {id:"labor27",kind:"date",prio:1,offer:1,title:"Labor Day Weekend",pub:"2027-08-23",start:"2027-09-03",end:"2027-09-06",
+  why:{en:"Owners and managers want to finish a project before the rains return.",es:"Propietarios y administradores quieren cerrar un proyecto antes de las lluvias."},
+  offer:{en:"Trim and failure-point review included with an eligible exterior quote, for real Sept–Oct capacity.",es:"Revisión de molduras y puntos de deterioro incluida en una cotización exterior, con capacidad real en sept–oct."},
+  img:{en:"Planning an exterior repaint this fall?",es:"¿Planeas repintar el exterior este otoño?"},
+  car:{en:"Fall exterior quote → condition → access → schedule → weather.",es:"Cotización de otoño → estado → acceso → calendario → clima."},
+  reel:{en:"Can this exterior be painted this fall? (how a real job is assessed)",es:"¿Se puede pintar este exterior en otoño? (cómo se evalúa una obra real)"}},
+ {id:"hhm27",kind:"date",title:"Hispanic Heritage Month",pub:"2027-09-06",start:"2027-09-15",end:"2027-10-15",
+  why:{en:"Bilingual content about the craft and real client questions, without a second offer.",es:"Contenido bilingüe sobre el oficio y preguntas reales, sin una segunda oferta."},
+  img:{en:"Se habla español. Ask about your painting project.",es:"Se habla español. Pregunta por tu proyecto de pintura."},
+  car:{en:"How we quote an exterior → photos → scope → visit (bilingual).",es:"Cómo cotizamos un exterior → fotos → alcance → visita (bilingüe)."},
+  reel:{en:"¿Qué incluye un estimado de pintura? — in Spanish with English subtitles.",es:"¿Qué incluye un estimado de pintura? — en español con subtítulos en inglés."}},
+ {id:"fall27",kind:"season",prio:1,offer:1,title:"Fall Exterior & Wood Care",pub:"2027-09-13",start:"2027-09-20",end:"2027-10-03",
+  why:{en:"Worry that damage will spread with the rains; want to know what needs attention now.",es:"Preocupa que el deterioro avance con las lluvias; quiere saber qué atender ya."},
+  offer:{en:"Fixed credit for minor wood repairs contracted with eligible exterior painting, with written cap and scope.",es:"Crédito fijo para reparaciones menores de madera junto a pintura exterior, con tope y alcance escritos."},
+  img:{en:"Will this trim hold up through winter?",es:"¿Aguantará esta moldura el invierno?"},
+  car:{en:"Check the trim → spot the damage → scope → when to assess.",es:"Revisa la moldura → identifica el daño → alcance → cuándo evaluar."},
+  reel:{en:"What we found under this peeling trim (open with the real finding).",es:"Lo que encontramos bajo esta moldura pelada (abrir con el hallazgo real)."}},
+ {id:"indig27",kind:"date",title:"Indigenous Peoples' Day / Columbus Day",pub:"2027-10-04",start:"2027-10-11",end:"2027-10-11",
+  why:{en:"Scheduling note and local recognition where appropriate; confirm wording.",es:"Aviso de agenda y reconocimiento local; confirmar el lenguaje."},
+  img:{en:"Bay Area scheduling update.",es:"Actualización de agenda en la Bay Area."},
+  car:{en:"October schedule → how to request a visit.",es:"Agenda de octubre → cómo pedir visita."},
+  reel:{en:"No Reel required.",es:"Sin Reel obligatorio."}},
+ {id:"pumpkin27",kind:"local",title:"Half Moon Bay Art & Pumpkin Festival",pub:"2027-10-04",start:"2027-10-16",end:"2027-10-17",
+  why:{en:"Local piece for shops and storefronts; use business photos with permission, no implied sponsorship.",es:"Pieza local para comercios; fotos con permiso, sin sugerir patrocinio."},
+  img:{en:"Half Moon Bay storefronts in fall.",es:"Locales de Half Moon Bay en otoño."},
+  car:{en:"Window → frames → entry → finish detail.",es:"Ventana → marcos → entrada → detalle de acabado."},
+  reel:{en:"What makes a freshly painted storefront stand out?",es:"¿Qué hace destacar un local recién pintado?"}},
+ {id:"hallo27",kind:"date",title:"Halloween",pub:"2027-10-18",start:"2027-10-31",end:"2027-10-31",
+  why:{en:"Wall and ceiling diagnosis content to start capturing winter interiors.",es:"Diagnóstico de paredes y techos para captar interiores de invierno."},
+  img:{en:"What's hiding under that old wallpaper?",es:"¿Qué se esconde bajo ese papel tapiz viejo?"},
+  car:{en:"Wallpaper removal → wall condition → prep → finish.",es:"Retiro de papel tapiz → estado de la pared → preparación → acabado."},
+  reel:{en:"What the wall looked like after the wallpaper came off.",es:"Así quedó la pared al quitar el papel tapiz."}},
+ {id:"vets27",kind:"date",prio:1,offer:1,title:"Veterans Week",pub:"2027-11-01",start:"2027-11-08",end:"2027-11-14",
+  why:{en:"Clients want to know who qualifies and how the benefit applies to the quote.",es:"El cliente quiere saber quién califica y cómo se aplica al presupuesto."},
+  offer:{en:"Proposed fixed labor credit for eligible veterans on new projects, subject to approval and published terms.",es:"Crédito fijo en mano de obra para veteranos elegibles en proyectos nuevos, sujeto a aprobación y términos publicados."},
+  img:{en:"Thank you to our veterans.",es:"Gracias a nuestros veteranos."},
+  car:{en:"Veterans Week → approved benefit → eligibility → dates → estimate.",es:"Semana de veteranos → beneficio aprobado → elegibilidad → fechas → estimado."},
+  reel:{en:"What does our Veterans Week offer include? (terms content)",es:"¿Qué incluye la oferta de la semana de veteranos? (condiciones)"}},
+ {id:"thanks27",kind:"date",title:"Thanksgiving",pub:"2027-11-15",start:"2027-11-25",end:"2027-11-25",
+  why:{en:"Thank-you and hours; the next offer opens on the 26th.",es:"Agradecimiento y horario; la siguiente oferta abre el 26."},
+  img:{en:"Thank you for trusting our crew.",es:"Gracias por confiar en nuestro equipo."},
+  car:{en:"Approved client photos → thank you to the crew.",es:"Fotos autorizadas de clientes → agradecimiento al equipo."},
+  reel:{en:"One project we're grateful we got to work on.",es:"Un proyecto que agradecemos haber hecho."}},
+ {id:"bf27",kind:"date",prio:1,offer:1,title:"Black Friday · Shop Small · Cyber Monday",pub:"2027-11-15",start:"2027-11-26",end:"2027-11-29",
+  why:{en:"People expect a clear benefit and want to know the conditions.",es:"La persona espera un beneficio claro y quiere conocer las condiciones."},
+  offer:{en:"Fixed credit per eligible winter interior booking; one quote, one code, one expiry for the three dates.",es:"Crédito fijo por reserva de interior para invierno; una cotización, un código y un vencimiento."},
+  img:{en:"Shop local. Book your winter interior project.",es:"Compra local. Reserva tu proyecto interior de invierno."},
+  car:{en:"What's included → eligibility → dates → how to request a quote.",es:"Qué incluye → elegibilidad → fechas → cómo pedir cotización."},
+  reel:{en:"What can you actually book this weekend? (approved offer and terms)",es:"¿Qué puedes reservar este fin de semana? (oferta aprobada y términos)"}},
+ {id:"comm27",kind:"own",offer:1,title:"Winter Commercial Repaint",pub:"2027-11-29",start:"2027-12-06",end:"2027-12-17",
+  why:{en:"Managers want to use the slower season and coordinate reopening.",es:"El administrador quiere aprovechar la temporada baja y coordinar la reapertura."},
+  offer:{en:"Preliminary phased plan and quote priority for eligible commercial interiors during confirmed low occupancy.",es:"Plan preliminar por fases y prioridad de cotización en interiores comerciales con baja ocupación confirmada."},
+  img:{en:"Repaint around your holiday schedule.",es:"Repinta según tu calendario de fiestas."},
+  car:{en:"Rooms → hours → access → phases → inspection.",es:"Espacios → horarios → acceso → fases → inspección."},
+  reel:{en:"How we plan an office repaint around occupancy.",es:"Cómo planeamos repintar una oficina con gente dentro."}},
+ {id:"xmas27",kind:"date",title:"Christmas Day",pub:"2027-12-13",start:"2027-12-25",end:"2027-12-25",
+  why:{en:"Greeting and holiday hours; January requests through the usual channel.",es:"Saludo y horario; solicitudes de enero por el canal habitual."},
+  img:{en:"Merry Christmas from Picasso Painting.",es:"Feliz Navidad de parte de Picasso Painting."},
+  car:{en:"Holiday hours → return date → usual link.",es:"Horario festivo → fecha de regreso → enlace habitual."},
+  reel:{en:"Short crew greeting, if approved material exists.",es:"Saludo breve del equipo, si hay material aprobado."}},
+ {id:"nye27",kind:"date",title:"New Year's Eve",pub:"2027-12-20",start:"2027-12-31",end:"2027-12-31",
+  why:{en:"Year-end editorial close; collect January requests.",es:"Cierre editorial del año; recoger solicitudes de enero."},
+  img:{en:"What are you planning to repaint in 2028?",es:"¿Qué piensas repintar en 2028?"},
+  car:{en:"Room → finish → timing → request.",es:"Habitación → acabado → momento → solicitud."},
+  reel:{en:"A real case + a question to plan the next project.",es:"Un caso real + una pregunta para planear el próximo proyecto."}}
+];
+
+// Rotación de 8 semanas para las semanas sin campaña activa (series del plan de contenido).
+const EVERGREEN = [
+ {series:{en:"What's Wrong With This Wall?",es:"¿Qué le pasa a esta pared?"},
+  reel:{en:"\"This peeling isn't a paint problem. It's what's under it.\" Find the cause, fix it, then paint.",es:"«Esto no es un problema de pintura, es lo que hay debajo.» Encontrar la causa, corregirla y luego pintar."},
+  car:{en:"3 signs your exterior paint is already failing (the last one is the most common).",es:"3 señales de que tu pintura exterior ya está fallando (la última es la más común)."},
+  img:{en:"Close-up of real peeling: \"Spot this on your home? Send us a photo.\"",es:"Primer plano de pintura pelada real: «¿Lo ves en tu casa? Envíanos una foto.»"},
+  s1:{en:"Question opener: \"Have you seen peeling or bubbling on your home?\" + reply keyword PHOTO.",es:"Historia con pregunta: «¿Has visto pintura pelada o con burbujas en tu casa?» + responder con la palabra PHOTO."},
+  s2:{en:"Proof: Nain checking a problem spot on a real job → keyword CTA ESTIMATE.",es:"Prueba: Nain revisando un punto dañado en una obra real → CTA con la palabra ESTIMATE."}},
+ {series:{en:"Before the First Coat",es:"Antes de la primera mano"},
+  reel:{en:"\"Most of a great paint job happens before we open a can.\" Masking, protection, scraping, caulking; the can opens at the end.",es:"«La mayor parte de un gran trabajo pasa antes de abrir la lata.» Enmascarado, protección, raspado, sellado; la lata se abre al final."},
+  car:{en:"A real prep day: protect → wash → scrape → prime → caulk → paint (save this).",es:"Un día real de preparación: proteger → lavar → raspar → imprimar → sellar → pintar (para guardar)."},
+  img:{en:"Masked windows and covered plants: \"Your property, protected.\"",es:"Ventanas enmascaradas y plantas cubiertas: «Tu propiedad, protegida.»"},
+  s1:{en:"Question box: \"What worries you most when painters work at your home?\"",es:"Caja de preguntas: «¿Qué es lo que más te preocupa cuando hay pintores en tu casa?»"},
+  s2:{en:"Time-lapse of today's masking + the answer to the top worry → link to Free Estimate.",es:"Time-lapse del enmascarado de hoy + respuesta a la preocupación más repetida → enlace al estimado gratis."}},
+ {series:{en:"The Picasso Transformation",es:"La transformación Picasso"},
+  reel:{en:"Progressive reveal of the gray ranch home: state → problem → prep → reveal at the end, same angle.",es:"Revelado progresivo de la casa gris: estado → problema → preparación → revelado al final, mismo ángulo."},
+  car:{en:"Same home, same angle: before → prep → paint → after (swipe to the reveal).",es:"Misma casa, mismo ángulo: antes → preparación → pintura → después (desliza hasta el final)."},
+  img:{en:"Finished red-and-green two-story: \"Same street. A whole new first impression.\"",es:"Casa roja y verde terminada: «Misma calle. Una primera impresión nueva.»"},
+  s1:{en:"\"Which color would you have picked?\" on the before photo (question opener).",es:"«¿Qué color habrías elegido?» sobre la foto del antes (historia con pregunta)."},
+  s2:{en:"The reveal + \"Want this for your home?\" link sticker to Free Estimate.",es:"El revelado + «¿Quieres esto para tu casa?» con sticker de enlace al estimado gratis."}},
+ {series:{en:"Ask the Painter",es:"Pregúntale al pintor"},
+  reel:{en:"\"Don't sign an exterior painting estimate until you see this.\" Nain walks the house and tapes what he checks.",es:"«No firmes un estimado de pintura exterior sin ver esto.» Nain recorre la casa y marca con cinta lo que revisa."},
+  car:{en:"How to choose a painter you can trust: verified license, insurance, BBB, reviews, written guarantee, final inspection.",es:"Cómo elegir un pintor confiable: licencia verificable, seguro, BBB, reseñas, garantía escrita, inspección final."},
+  img:{en:"FAQ card: \"How long does exterior paint last on the coast?\" (answer as a sourced range).",es:"Tarjeta FAQ: «¿Cuánto dura la pintura exterior en la costa?» (respuesta como rango con fuente)."},
+  s1:{en:"Question box: \"What do you want to know before hiring a painter?\"",es:"Caja de preguntas: «¿Qué quieres saber antes de contratar a un pintor?»"},
+  s2:{en:"Nain answers last week's best question on camera (15 s) + keyword CTA.",es:"Nain responde a cámara la mejor pregunta de la semana anterior (15 s) + CTA con palabra clave."}},
+ {series:{en:"Access & Scaffolding",es:"Acceso y andamios"},
+  reel:{en:"\"This house couldn't be painted from a ladder. Here's why.\" Scaffold time-lapse, the hard spot, safe two-handed work.",es:"«Esta casa no se podía pintar con escalera. Te explico por qué.» Time-lapse del andamio, el punto difícil y trabajo seguro."},
+  car:{en:"Ladder or scaffolding? → height → ground → access → what we confirm before quoting.",es:"¿Escalera o andamio? → altura → terreno → acceso → qué confirmamos antes de cotizar."},
+  img:{en:"Scaffold on a multi-story façade: \"Licensed for painting (C33) and scaffolding (D39).\"",es:"Andamio en fachada de varios pisos: «Licencia para pintura (C33) y andamios (D39).»"},
+  s1:{en:"\"Is your home one story or two-plus?\" (question opener) → why it matters for access.",es:"«¿Tu casa es de un piso o de dos o más?» (historia con pregunta) → por qué importa para el acceso."},
+  s2:{en:"Scaffold going up today + \"Tall project? DM us ACCESS.\"",es:"Andamio subiendo hoy + «¿Proyecto en altura? Escríbenos ACCESS.»"}},
+ {series:{en:"Color & Light",es:"Color y luz"},
+  reel:{en:"\"Why does this white look different at night?\" Same sample in daylight and lamplight.",es:"«¿Por qué este blanco se ve distinto de noche?» La misma muestra con luz de día y de lámpara."},
+  car:{en:"2027 colors of the year (Benjamin Moore Webster Green, Sherwin-Williams Celery) → where greens work → test before you commit.",es:"Colores del año 2027 (Webster Green de Benjamin Moore, Celery de Sherwin-Williams) → dónde funcionan los verdes → probar antes de decidir."},
+  img:{en:"Our green Airstream: \"Green is having a moment.\"",es:"Nuestro Airstream verde: «El verde está de moda.»"},
+  s1:{en:"This or that: two door colors on the same house, vote by replying A or B.",es:"Esto o aquello: dos colores de puerta en la misma casa; vota respondiendo A o B."},
+  s2:{en:"Reveal the winner on the real door + \"Need help choosing? Ask about a color consultation.\"",es:"Revelar el ganador en la puerta real + «¿Necesitas ayuda para elegir? Pregunta por la consulta de color.»"}},
+ {series:{en:"Meet the Crew",es:"Conoce al equipo"},
+  reel:{en:"\"One thing happens before we call any job done.\" Nain's final inspection with blue tape.",es:"«Hay algo que pasa antes de dar por terminado cualquier trabajo.» La inspección final de Nain con cinta azul."},
+  car:{en:"Meet Nain → how we work → what clients can expect → how to start.",es:"Conoce a Nain → cómo trabajamos → qué puede esperar el cliente → cómo empezar."},
+  img:{en:"Nain with the vans: \"Owner-checked. Every job.\"",es:"Nain con las furgonetas: «Revisado por el dueño. Cada trabajo.»"},
+  s1:{en:"\"A day on the job\": 3 quick clips from morning setup to cleanup.",es:"«Un día en la obra»: 3 clips rápidos del montaje de la mañana a la limpieza."},
+  s2:{en:"A real client review (Yelp/BBB, with permission) + link to reviews.",es:"Una reseña real (Yelp/BBB, con permiso) + enlace a las reseñas."}},
+ {series:{en:"Outdoor Wood & Washing",es:"Madera exterior y lavado"},
+  reel:{en:"\"Same deck. Ten seconds apart.\" One satisfying pressure-wash pass, then why washing comes before paint on the coast.",es:"«El mismo deck. Diez segundos de diferencia.» Una pasada de lavado y por qué en la costa se lava antes de pintar."},
+  car:{en:"Deck check: gray → soaks up water → splinters → what each sign means.",es:"Revisa tu deck: gris → absorbe agua → astillas → qué significa cada señal."},
+  img:{en:"Split image, washed vs unwashed strip: \"Wash it or repaint it?\"",es:"Imagen dividida, franja lavada y sin lavar: «¿Lavar o repintar?»"},
+  s1:{en:"\"Does water bead or soak in on your deck?\" (question opener + the water test).",es:"«¿El agua forma gotas o se absorbe en tu deck?» (historia con pregunta + la prueba del agua)."},
+  s2:{en:"Satisfying wash clip + \"Send us a photo of your deck\" keyword DECK.",es:"Clip de lavado + «Envíanos una foto de tu deck» con la palabra DECK."}}
+];
+
+(function(){
+const MONTHS={en:["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],es:["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"]};
+let lang="en";
+try{const s=localStorage.getItem("pp-lang");if(s==="es"||s==="en")lang=s}catch(e){}
+const d=s=>new Date(s+"T12:00:00");
+const iso=x=>x.toISOString().slice(0,10);
+const add=(x,n)=>{const y=new Date(x);y.setDate(y.getDate()+n);return y};
+const fmt=x=>`${x.getDate()} ${MONTHS[lang][x.getMonth()]} ${x.getFullYear()}`;
+const range=(a,b)=>a===b?fmt(d(a)):`${fmt(d(a))} – ${fmt(d(b))}`;
+const t=o=>o?o[lang]:"";
+const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;");
+const L={offer:{en:"Offer",es:"Oferta"},live:{en:"Offer live",es:"Oferta activa"},warm:{en:"Warm-up (educational)",es:"Calentamiento (educativo)"},ever:{en:"Content series",es:"Serie de contenido"},all:{en:"All months",es:"Todos los meses"},
+ s1:{en:"Question opener on the problem: ",es:"Historia con pregunta sobre el problema: "},s2o:{en:"Proof from a real job + the approved offer, keyword ESTIMATE.",es:"Prueba de una obra real + la oferta aprobada, palabra clave ESTIMATE."},s2:{en:"Proof from a real job + link sticker to the free estimate.",es:"Prueba de una obra real + sticker de enlace al estimado gratis."}};
+// Calendario de temporadas
+const calMonth=document.getElementById("calMonth"),calOffers=document.getElementById("calOffers"),calBody=document.getElementById("calBody");
+function renderCal(){
+ const m=calMonth.value;
+ calBody.innerHTML=CAMPAIGNS.filter(c=>(!m||c.start.slice(0,7)===m)&&(!calOffers.checked||c.offer)).map(c=>`<tr><td>${range(c.start,c.end)}<br><span class="muted">${lang==="en"?"Publish from":"Publicar desde"} ${fmt(d(c.pub))}</span></td><td><b>${esc(c.title)}</b><br><span class="muted">${esc(t(c.why))}</span>${c.offer?`<br><span class="tag gold">${t(L.offer)}</span> <span class="muted">${esc(t(c.offer))}</span>`:""}</td><td>${esc(t(c.reel))}</td><td>${esc(t(c.car))}</td><td>${esc(t(c.img))}</td></tr>`).join("");
+}
+// Calendario semanal
+const WEEKS=[],SEEN={};let evIdx=0;
+// Fechas editoriales con contenido propio (las demás solo cambian la imagen del sábado por el saludo).
+const RICH=new Set(["ny27","easter27","earth27","mom27","dad27","hhm27","pumpkin27","hallo27","nye27"]);
+// Series relacionadas (índices de EVERGREEN) para la 2.ª semana en adelante de cada campaña.
+const RELATED={winter26:[1,5],oneroom27:[0,1],pres27:[5],spring27:[3,2,4],scaff27:[4,3],surface27:[0,7],sbw27:[6,1],wash27:[7,0],home27:[2,3],deck27:[7,2],access27:[4,6],labor27:[0,2],fall27:[7,0],vets27:[6],bf27:[1,6],comm27:[6,1]};
+for(let w=d("2026-11-30"),i=0;iso(w)<="2027-12-27";w=add(w,7),i++){
+ const mon=iso(w),sun=iso(add(w,6));
+ const active=CAMPAIGNS.filter(c=>c.pub<=sun&&c.end>=mon);
+ const score=c=>(c.prio?3:0)+(c.offer?2:0)+(c.kind==="own"||c.kind==="season"?1:0);
+ let main=active.filter(c=>score(c)>0).sort((a,b)=>score(b)-score(a)||(b.end>a.end?1:-1))[0];
+ if(!main)main=active.find(c=>RICH.has(c.id)&&c.start>=mon&&c.start<=sun);
+ const holiday=CAMPAIGNS.find(c=>c.kind==="date"&&c!==main&&c.start>=mon&&c.start<=sun);
+ // Semana k de la campaña: la primera usa sus piezas; las siguientes, una serie relacionada (sin repetir piezas).
+ let k=0,ev=null;
+ if(main){k=SEEN[main.id]=(SEEN[main.id]??-1)+1;if(k>0){const r=RELATED[main.id]||[evIdx++%EVERGREEN.length];ev=EVERGREEN[r[(k-1)%r.length]]}}
+ else ev=EVERGREEN[evIdx++%EVERGREEN.length];
+ WEEKS.push({mon,main,holiday,k,ev});
+}
+const wkMonth=document.getElementById("wkMonth"),wkBody=document.getElementById("wkBody");
+function renderWk(){
+ const m=wkMonth.value;
+ wkBody.innerHTML=WEEKS.filter(w=>!m||w.mon.slice(0,7)===m).map(w=>{
+  const c=w.main,e=w.ev;let theme,badge,s1,reel,car,s2,img;
+  if(c){const live=w.mon>=c.start||(add(d(w.mon),6)>=d(c.start)&&c.offer);
+   theme=c.title+(e?" · "+t(e.series):"");badge=c.offer?`<span class="badge ${live?"b-live":"b-warm"}">${t(live?L.live:L.warm)}</span>`:"";
+   if(e){s1=t(e.s1);reel=t(e.reel);car=t(e.car);img=t(e.img);}else{s1=t(L.s1)+t(c.why);reel=t(c.reel);car=t(c.car);img=t(c.img);}
+   s2=c.offer&&live?t(L.s2o):e?t(e.s2):t(L.s2);}
+  else{theme=t(e.series);badge=`<span class="badge b-ever">${t(L.ever)}</span>`;s1=t(e.s1);reel=t(e.reel);car=t(e.car);img=t(e.img);s2=t(e.s2);}
+  if(w.holiday)img=`<b>${esc(w.holiday.title)}:</b> ${esc(t(w.holiday.img))}`;else img=esc(img);
+  return `<tr><td>${fmt(d(w.mon))}</td><td><span class="theme">${esc(theme)}</span><br>${badge}</td><td>${esc(s1)}</td><td>${esc(reel)}</td><td>${esc(car)}</td><td>${esc(s2)}</td><td>${img}</td></tr>`}).join("");
+}
+function months(sel,list){const cur=sel.value;sel.innerHTML=`<option value="">${t(L.all)}</option>`+[...new Set(list)].sort().map(m=>`<option value="${m}">${MONTHS[lang][+m.slice(5)-1]} ${m.slice(0,4)}</option>`).join("");sel.value=cur}
+function setLang(l){lang=l;document.documentElement.lang=l;document.querySelectorAll(".lang button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.lang===l)));try{localStorage.setItem("pp-lang",l)}catch(e){}
+ months(calMonth,CAMPAIGNS.map(c=>c.start.slice(0,7)));months(wkMonth,WEEKS.map(w=>w.mon.slice(0,7)));renderCal();renderWk();}
+document.querySelectorAll(".lang button").forEach(b=>b.addEventListener("click",()=>setLang(b.dataset.lang)));
+calMonth.onchange=renderCal;calOffers.onchange=renderCal;wkMonth.onchange=renderWk;
+setLang(lang);
+})();
+</script>
+</body>
+</html>
